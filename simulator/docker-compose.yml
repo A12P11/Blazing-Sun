@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  target-server:
+    build: .
+    ports:
+      - "2222:22"
+      - "5050:5000"
+    container_name: aura-sre-target
+    restart: unless-stopped
+    # Add cap_add for some diagnostic commands if needed, though default usually works for basic monitoring

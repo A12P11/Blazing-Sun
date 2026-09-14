@@ -1,0 +1,4740 @@
+{
+  "servers": [
+    {
+      "name": "Aura Docker Target",
+      "host": "localhost",
+      "port": 2222,
+      "username": "root",
+      "authType": "password",
+      "password": "password",
+      "privateKey": "",
+      "isMock": false,
+      "status": "online",
+      "id": "server-1786518279736-22za2w13i",
+      "lastChecked": "2026-09-14T18:26:11.502Z"
+    }
+  ],
+  "metrics": [
+    {
+      "serverId": "server-1786518449756-22hv9rpfx",
+      "timestamp": "2026-08-12T07:07:33.116Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518449756-22hv9rpfx",
+      "timestamp": "2026-08-12T07:07:37.120Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518449756-22hv9rpfx",
+      "timestamp": "2026-08-12T07:07:52.197Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518449756-22hv9rpfx",
+      "timestamp": "2026-08-12T07:08:02.199Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518449756-22hv9rpfx",
+      "timestamp": "2026-08-12T07:08:08.203Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518449756-22hv9rpfx",
+      "timestamp": "2026-08-12T07:08:13.200Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:29:49.629Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:29:53.630Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:29:57.631Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:30:01.633Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:30:05.633Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:30:09.635Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:30:13.634Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:30:17.636Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:30:21.636Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:30:25.636Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:30:29.636Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:30:33.638Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:30:37.640Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:30:41.640Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:30:45.642Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:30:49.642Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:30:53.643Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:30:57.643Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:31:01.644Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:31:05.646Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:31:09.647Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:31:13.648Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:31:17.649Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:31:21.649Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:31:25.651Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:31:29.651Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:31:33.653Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:31:37.654Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:31:41.656Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:31:45.655Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:31:49.656Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:31:53.658Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:31:57.658Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:32:01.659Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:32:05.660Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:32:09.662Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:32:13.662Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:32:17.663Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:32:21.664Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:32:25.665Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:32:29.666Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:32:33.667Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:32:37.668Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:32:41.668Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:32:45.669Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:32:49.671Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:32:53.671Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:32:57.672Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:33:01.673Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:33:05.674Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:33:09.675Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:33:13.676Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:33:17.677Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:33:21.678Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:33:25.678Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:33:29.680Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:33:33.681Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:33:37.682Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:33:41.684Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:33:45.685Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:33:49.686Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:33:53.687Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:33:57.688Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:34:01.689Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:34:05.690Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:34:09.691Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:34:13.691Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:34:17.692Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:34:21.693Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:34:25.694Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:34:29.694Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:34:33.695Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:34:37.697Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:34:41.697Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:34:45.698Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:34:49.699Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:34:53.700Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:34:57.701Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:35:01.701Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:35:05.702Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T13:35:09.704Z",
+      "cpu": 10,
+      "ram": 25,
+      "disk": 45
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T17:48:31.531Z",
+      "cpu": 1.4,
+      "ram": 8.06401,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T17:48:35.532Z",
+      "cpu": 10,
+      "ram": 8.40935,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T17:48:39.532Z",
+      "cpu": 10,
+      "ram": 8.38749,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T17:48:43.531Z",
+      "cpu": 10,
+      "ram": 8.83594,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T17:48:47.532Z",
+      "cpu": 10,
+      "ram": 8.66549,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T17:48:51.532Z",
+      "cpu": 10,
+      "ram": 8.47545,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T17:48:55.533Z",
+      "cpu": 10,
+      "ram": 8.47899,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T17:48:59.534Z",
+      "cpu": 10,
+      "ram": 8.23757,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T17:49:03.536Z",
+      "cpu": 10,
+      "ram": 8.44508,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T17:52:58.770Z",
+      "cpu": 10,
+      "ram": 8.31932,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T17:53:02.771Z",
+      "cpu": 0.6,
+      "ram": 8.3427,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T17:53:06.770Z",
+      "cpu": 10,
+      "ram": 8.45315,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T17:53:10.772Z",
+      "cpu": 10,
+      "ram": 8.25602,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T17:53:14.773Z",
+      "cpu": 10,
+      "ram": 8.32203,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:01:31.003Z",
+      "cpu": 10,
+      "ram": 8.33453,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:01:35.003Z",
+      "cpu": 1.2,
+      "ram": 8.62784,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:01:39.003Z",
+      "cpu": 10,
+      "ram": 8.53151,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:01:43.005Z",
+      "cpu": 10,
+      "ram": 8.48269,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:01:47.005Z",
+      "cpu": 10,
+      "ram": 8.63522,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:01:51.007Z",
+      "cpu": 10,
+      "ram": 8.6146,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:01:55.007Z",
+      "cpu": 0.6,
+      "ram": 8.55499,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:01:59.007Z",
+      "cpu": 0.6,
+      "ram": 8.49317,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:02:03.008Z",
+      "cpu": 10,
+      "ram": 8.19853,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:02:07.009Z",
+      "cpu": 10,
+      "ram": 8.55529,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:02:11.010Z",
+      "cpu": 0.6,
+      "ram": 8.57301,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:02:15.011Z",
+      "cpu": 0.6,
+      "ram": 8.55893,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:02:19.012Z",
+      "cpu": 0.6,
+      "ram": 8.65033,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:02:23.013Z",
+      "cpu": 0.7,
+      "ram": 8.28418,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:02:27.014Z",
+      "cpu": 10,
+      "ram": 8.48367,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:02:31.015Z",
+      "cpu": 10,
+      "ram": 8.58078,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:02:35.016Z",
+      "cpu": 0.7,
+      "ram": 8.52191,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:02:39.018Z",
+      "cpu": 10,
+      "ram": 8.51596,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:02:43.018Z",
+      "cpu": 10,
+      "ram": 8.47762,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:02:47.020Z",
+      "cpu": 0.7,
+      "ram": 8.74331,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:02:51.021Z",
+      "cpu": 10,
+      "ram": 8.29269,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:02:55.022Z",
+      "cpu": 10,
+      "ram": 8.41501,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:02:59.024Z",
+      "cpu": 10,
+      "ram": 8.44208,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:03:03.024Z",
+      "cpu": 10,
+      "ram": 8.42835,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:03:07.023Z",
+      "cpu": 10,
+      "ram": 8.44872,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:03:11.024Z",
+      "cpu": 10,
+      "ram": 8.51852,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:03:15.026Z",
+      "cpu": 10,
+      "ram": 8.43957,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:03:19.027Z",
+      "cpu": 10,
+      "ram": 8.70241,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:03:23.028Z",
+      "cpu": 0.7,
+      "ram": 8.3079,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:03:27.029Z",
+      "cpu": 10,
+      "ram": 8.57871,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:03:31.030Z",
+      "cpu": 0.6,
+      "ram": 8.39374,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:03:35.030Z",
+      "cpu": 10,
+      "ram": 8.44459,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:03:39.030Z",
+      "cpu": 10,
+      "ram": 8.90411,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:03:43.032Z",
+      "cpu": 10,
+      "ram": 8.62237,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:03:47.033Z",
+      "cpu": 10,
+      "ram": 8.45748,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:03:51.034Z",
+      "cpu": 10,
+      "ram": 8.75827,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:03:55.035Z",
+      "cpu": 10,
+      "ram": 8.65195,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:03:59.036Z",
+      "cpu": 10,
+      "ram": 8.72889,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:04:03.038Z",
+      "cpu": 10,
+      "ram": 8.53353,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:04:07.038Z",
+      "cpu": 0.6,
+      "ram": 8.59653,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:04:11.039Z",
+      "cpu": 10,
+      "ram": 8.59574,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:04:15.040Z",
+      "cpu": 10,
+      "ram": 8.60465,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:04:19.040Z",
+      "cpu": 0.6,
+      "ram": 8.70605,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:04:23.041Z",
+      "cpu": 10,
+      "ram": 8.37716,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:04:27.041Z",
+      "cpu": 10,
+      "ram": 8.51443,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:04:31.043Z",
+      "cpu": 10,
+      "ram": 8.76999,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:04:35.043Z",
+      "cpu": 10,
+      "ram": 8.7689,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:06:39.172Z",
+      "cpu": 1.2,
+      "ram": 8.2889,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:06:43.173Z",
+      "cpu": 2.7,
+      "ram": 8.18913,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:06:47.174Z",
+      "cpu": 0.6,
+      "ram": 8.52536,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:06:51.175Z",
+      "cpu": 0.6,
+      "ram": 8.56513,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:06:55.177Z",
+      "cpu": 10,
+      "ram": 8.32931,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:06:59.178Z",
+      "cpu": 10,
+      "ram": 8.4786,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:07:03.178Z",
+      "cpu": 10,
+      "ram": 8.77063,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:07:07.180Z",
+      "cpu": 10,
+      "ram": 8.22905,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:07:11.181Z",
+      "cpu": 10,
+      "ram": 8.31169,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:07:15.183Z",
+      "cpu": 10,
+      "ram": 8.38567,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:07:19.183Z",
+      "cpu": 10,
+      "ram": 8.56518,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:07:23.184Z",
+      "cpu": 10,
+      "ram": 8.43332,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:07:27.185Z",
+      "cpu": 10,
+      "ram": 8.2574,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:07:31.187Z",
+      "cpu": 10,
+      "ram": 8.3207,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:07:35.188Z",
+      "cpu": 10,
+      "ram": 8.65614,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:07:39.189Z",
+      "cpu": 10,
+      "ram": 8.64054,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:07:43.190Z",
+      "cpu": 10,
+      "ram": 8.81104,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:07:47.191Z",
+      "cpu": 10,
+      "ram": 8.52959,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:07:51.192Z",
+      "cpu": 10,
+      "ram": 8.51424,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:07:55.193Z",
+      "cpu": 10,
+      "ram": 8.70388,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:07:59.195Z",
+      "cpu": 10,
+      "ram": 8.62833,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:08:03.196Z",
+      "cpu": 10,
+      "ram": 8.74085,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:08:07.197Z",
+      "cpu": 10,
+      "ram": 8.87871,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:08:11.198Z",
+      "cpu": 10,
+      "ram": 8.85716,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:08:15.200Z",
+      "cpu": 10,
+      "ram": 8.77481,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:08:19.201Z",
+      "cpu": 10,
+      "ram": 9.07737,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:08:23.203Z",
+      "cpu": 10,
+      "ram": 8.83417,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:08:27.203Z",
+      "cpu": 10,
+      "ram": 8.65885,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:08:31.204Z",
+      "cpu": 10,
+      "ram": 8.66175,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:08:35.205Z",
+      "cpu": 0.6,
+      "ram": 8.80725,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:08:39.206Z",
+      "cpu": 10,
+      "ram": 8.66022,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:08:43.206Z",
+      "cpu": 10,
+      "ram": 8.85371,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:08:47.208Z",
+      "cpu": 10,
+      "ram": 8.79317,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:08:51.209Z",
+      "cpu": 0.6,
+      "ram": 8.76689,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:08:55.211Z",
+      "cpu": 0.6,
+      "ram": 8.91401,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:08:59.212Z",
+      "cpu": 0.7,
+      "ram": 8.83437,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:09:03.213Z",
+      "cpu": 10,
+      "ram": 8.95821,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:09:07.214Z",
+      "cpu": 10,
+      "ram": 8.95353,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:09:11.214Z",
+      "cpu": 10,
+      "ram": 8.74853,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:09:15.217Z",
+      "cpu": 10,
+      "ram": 8.90613,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:09:19.218Z",
+      "cpu": 10,
+      "ram": 8.87635,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:09:23.218Z",
+      "cpu": 10,
+      "ram": 8.79504,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:09:27.220Z",
+      "cpu": 10,
+      "ram": 8.29525,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:09:31.220Z",
+      "cpu": 10,
+      "ram": 8.59791,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:09:35.221Z",
+      "cpu": 0.6,
+      "ram": 8.56833,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:09:39.222Z",
+      "cpu": 10,
+      "ram": 8.65338,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:09:43.223Z",
+      "cpu": 10,
+      "ram": 8.91445,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:09:47.225Z",
+      "cpu": 10,
+      "ram": 8.63158,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:09:51.226Z",
+      "cpu": 10,
+      "ram": 8.73514,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:09:55.226Z",
+      "cpu": 10,
+      "ram": 8.57325,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:09:59.226Z",
+      "cpu": 10,
+      "ram": 8.84928,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:10:03.227Z",
+      "cpu": 10,
+      "ram": 8.90987,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:10:07.228Z",
+      "cpu": 10,
+      "ram": 8.74892,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:10:11.229Z",
+      "cpu": 0.6,
+      "ram": 8.78903,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:10:15.230Z",
+      "cpu": 10,
+      "ram": 8.67381,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:10:19.231Z",
+      "cpu": 10,
+      "ram": 8.89727,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:10:23.232Z",
+      "cpu": 0.6,
+      "ram": 8.95018,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:10:27.233Z",
+      "cpu": 10,
+      "ram": 8.75217,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:10:31.234Z",
+      "cpu": 10,
+      "ram": 8.88467,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:10:35.235Z",
+      "cpu": 10,
+      "ram": 8.90588,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:10:39.236Z",
+      "cpu": 10,
+      "ram": 9.20328,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:10:43.238Z",
+      "cpu": 10,
+      "ram": 9.21081,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:10:47.239Z",
+      "cpu": 10,
+      "ram": 8.78367,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:10:51.240Z",
+      "cpu": 10,
+      "ram": 8.70674,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:10:55.241Z",
+      "cpu": 10,
+      "ram": 8.78613,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:10:59.242Z",
+      "cpu": 10,
+      "ram": 8.61154,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:11:03.242Z",
+      "cpu": 10,
+      "ram": 8.64895,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:11:07.242Z",
+      "cpu": 10,
+      "ram": 8.4976,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:11:11.242Z",
+      "cpu": 10,
+      "ram": 8.68946,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:11:15.243Z",
+      "cpu": 10,
+      "ram": 8.78456,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:11:19.244Z",
+      "cpu": 10,
+      "ram": 8.77944,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:11:23.245Z",
+      "cpu": 10,
+      "ram": 8.74567,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:11:27.247Z",
+      "cpu": 10,
+      "ram": 8.48751,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:11:31.249Z",
+      "cpu": 0.6,
+      "ram": 8.69675,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:11:35.250Z",
+      "cpu": 10,
+      "ram": 8.5671,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:11:39.251Z",
+      "cpu": 0.6,
+      "ram": 8.73243,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:11:43.252Z",
+      "cpu": 10,
+      "ram": 8.89451,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:11:47.253Z",
+      "cpu": 10,
+      "ram": 8.65663,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:11:51.254Z",
+      "cpu": 10,
+      "ram": 8.46821,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:11:55.254Z",
+      "cpu": 0.7,
+      "ram": 8.71609,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:11:59.255Z",
+      "cpu": 1.2,
+      "ram": 8.68479,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:12:03.257Z",
+      "cpu": 10,
+      "ram": 8.69886,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:12:07.259Z",
+      "cpu": 10,
+      "ram": 8.5796,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:12:11.259Z",
+      "cpu": 10,
+      "ram": 8.68336,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:12:15.260Z",
+      "cpu": 10,
+      "ram": 8.45497,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:12:19.262Z",
+      "cpu": 10,
+      "ram": 8.74434,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:12:23.262Z",
+      "cpu": 10,
+      "ram": 8.84593,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:12:27.263Z",
+      "cpu": 10,
+      "ram": 8.50011,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:12:31.263Z",
+      "cpu": 0.6,
+      "ram": 8.81256,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:12:35.265Z",
+      "cpu": 10,
+      "ram": 8.67366,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:12:39.265Z",
+      "cpu": 10,
+      "ram": 8.84205,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:12:43.266Z",
+      "cpu": 10,
+      "ram": 8.91912,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:12:47.267Z",
+      "cpu": 0.6,
+      "ram": 8.57896,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:12:51.269Z",
+      "cpu": 10,
+      "ram": 8.77486,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:12:55.271Z",
+      "cpu": 10,
+      "ram": 8.69227,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:12:59.273Z",
+      "cpu": 0.6,
+      "ram": 8.4788,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:13:03.273Z",
+      "cpu": 10,
+      "ram": 8.88752,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:13:07.274Z",
+      "cpu": 10,
+      "ram": 8.65058,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:13:11.276Z",
+      "cpu": 10,
+      "ram": 8.65466,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:13:15.277Z",
+      "cpu": 0.6,
+      "ram": 8.80065,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:13:19.278Z",
+      "cpu": 10,
+      "ram": 8.75758,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:13:23.279Z",
+      "cpu": 10,
+      "ram": 8.58629,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:13:27.279Z",
+      "cpu": 10,
+      "ram": 8.59013,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:13:31.280Z",
+      "cpu": 10,
+      "ram": 8.93532,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:13:35.281Z",
+      "cpu": 3.8,
+      "ram": 8.57064,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:13:39.283Z",
+      "cpu": 10,
+      "ram": 8.91573,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:13:43.284Z",
+      "cpu": 10,
+      "ram": 9.12895,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:13:47.285Z",
+      "cpu": 10,
+      "ram": 8.63015,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:13:51.286Z",
+      "cpu": 10,
+      "ram": 8.89136,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:13:55.316Z",
+      "cpu": 4.6,
+      "ram": 8.75753,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:13:59.300Z",
+      "cpu": 10,
+      "ram": 8.80597,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:14:03.302Z",
+      "cpu": 0.6,
+      "ram": 8.91908,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:14:07.303Z",
+      "cpu": 0.6,
+      "ram": 8.59373,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:14:11.304Z",
+      "cpu": 0.6,
+      "ram": 8.78451,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:14:15.306Z",
+      "cpu": 10,
+      "ram": 9.11832,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:14:19.308Z",
+      "cpu": 10,
+      "ram": 8.8231,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:14:23.308Z",
+      "cpu": 0.6,
+      "ram": 8.86351,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:14:27.308Z",
+      "cpu": 10,
+      "ram": 8.61366,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:14:31.310Z",
+      "cpu": 10,
+      "ram": 8.94723,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:14:35.310Z",
+      "cpu": 10,
+      "ram": 8.73632,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:14:39.312Z",
+      "cpu": 10,
+      "ram": 8.88113,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:14:43.312Z",
+      "cpu": 10,
+      "ram": 8.94944,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:14:47.314Z",
+      "cpu": 1.2,
+      "ram": 8.81335,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:14:51.314Z",
+      "cpu": 10,
+      "ram": 8.99935,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:14:55.315Z",
+      "cpu": 10,
+      "ram": 9.03041,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:14:59.316Z",
+      "cpu": 10,
+      "ram": 8.61027,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:15:03.318Z",
+      "cpu": 10,
+      "ram": 8.88246,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:15:07.320Z",
+      "cpu": 10,
+      "ram": 8.70949,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:15:11.321Z",
+      "cpu": 0.6,
+      "ram": 8.83525,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:15:15.322Z",
+      "cpu": 0.6,
+      "ram": 8.97258,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:15:19.322Z",
+      "cpu": 10,
+      "ram": 8.7851,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:15:23.324Z",
+      "cpu": 0.6,
+      "ram": 8.72273,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:15:27.325Z",
+      "cpu": 10,
+      "ram": 8.80316,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:15:31.325Z",
+      "cpu": 10,
+      "ram": 8.72972,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:15:35.327Z",
+      "cpu": 10,
+      "ram": 8.65048,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:15:39.327Z",
+      "cpu": 10,
+      "ram": 8.60234,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:15:43.329Z",
+      "cpu": 10,
+      "ram": 8.74114,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:15:47.330Z",
+      "cpu": 0.6,
+      "ram": 8.8357,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:15:51.331Z",
+      "cpu": 10,
+      "ram": 8.88762,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:15:55.332Z",
+      "cpu": 10,
+      "ram": 9.12787,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:15:59.334Z",
+      "cpu": 10,
+      "ram": 9.13181,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:16:03.335Z",
+      "cpu": 10,
+      "ram": 9.13668,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:16:07.337Z",
+      "cpu": 10,
+      "ram": 8.77496,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:16:11.337Z",
+      "cpu": 10,
+      "ram": 8.94752,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:16:15.338Z",
+      "cpu": 10,
+      "ram": 8.9651,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:16:19.339Z",
+      "cpu": 10,
+      "ram": 8.86173,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:16:23.340Z",
+      "cpu": 10,
+      "ram": 8.70693,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:16:27.342Z",
+      "cpu": 10,
+      "ram": 8.62725,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:16:31.343Z",
+      "cpu": 10,
+      "ram": 8.53309,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:16:35.344Z",
+      "cpu": 10,
+      "ram": 8.8259,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:16:39.344Z",
+      "cpu": 0.6,
+      "ram": 8.51655,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:16:43.345Z",
+      "cpu": 10,
+      "ram": 8.51566,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:16:47.347Z",
+      "cpu": 10,
+      "ram": 8.66337,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:16:51.348Z",
+      "cpu": 0.6,
+      "ram": 8.76098,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:16:55.350Z",
+      "cpu": 10,
+      "ram": 8.62611,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:16:59.351Z",
+      "cpu": 0.6,
+      "ram": 8.60564,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:17:03.352Z",
+      "cpu": 0.6,
+      "ram": 8.75537,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:17:07.352Z",
+      "cpu": 0.7,
+      "ram": 8.47259,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:17:11.354Z",
+      "cpu": 10,
+      "ram": 8.75281,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:17:15.355Z",
+      "cpu": 10,
+      "ram": 9.06142,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:17:19.356Z",
+      "cpu": 10,
+      "ram": 9.05148,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:17:23.357Z",
+      "cpu": 10,
+      "ram": 8.6557,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:17:27.357Z",
+      "cpu": 10,
+      "ram": 8.40551,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:17:31.357Z",
+      "cpu": 10,
+      "ram": 8.66047,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:17:35.360Z",
+      "cpu": 10,
+      "ram": 8.62075,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:17:39.361Z",
+      "cpu": 10,
+      "ram": 8.4911,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:17:43.360Z",
+      "cpu": 10,
+      "ram": 8.54372,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:17:47.362Z",
+      "cpu": 10,
+      "ram": 8.42588,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:17:51.362Z",
+      "cpu": 10,
+      "ram": 8.72992,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:17:55.362Z",
+      "cpu": 10,
+      "ram": 8.60982,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:17:59.363Z",
+      "cpu": 10,
+      "ram": 8.60746,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:18:03.364Z",
+      "cpu": 10,
+      "ram": 8.93743,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:18:07.366Z",
+      "cpu": 0.6,
+      "ram": 8.65043,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:18:11.368Z",
+      "cpu": 10,
+      "ram": 8.76698,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:18:15.370Z",
+      "cpu": 10,
+      "ram": 8.75163,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:18:19.371Z",
+      "cpu": 10,
+      "ram": 8.66603,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:18:23.372Z",
+      "cpu": 10,
+      "ram": 8.84022,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:18:27.372Z",
+      "cpu": 10,
+      "ram": 8.65299,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:18:31.375Z",
+      "cpu": 10,
+      "ram": 8.7123,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:18:35.375Z",
+      "cpu": 10,
+      "ram": 8.81803,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:18:39.377Z",
+      "cpu": 10,
+      "ram": 8.87035,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:18:43.377Z",
+      "cpu": 0.6,
+      "ram": 9.03278,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:18:47.379Z",
+      "cpu": 10,
+      "ram": 8.57739,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:18:51.378Z",
+      "cpu": 10,
+      "ram": 8.47264,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:18:55.379Z",
+      "cpu": 10,
+      "ram": 8.55036,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:18:59.381Z",
+      "cpu": 10,
+      "ram": 8.48027,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:19:03.380Z",
+      "cpu": 10,
+      "ram": 8.76885,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:19:07.383Z",
+      "cpu": 10,
+      "ram": 8.57197,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:19:11.384Z",
+      "cpu": 10,
+      "ram": 8.72308,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:19:15.386Z",
+      "cpu": 10,
+      "ram": 8.61184,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:19:19.386Z",
+      "cpu": 10,
+      "ram": 8.58039,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:19:23.388Z",
+      "cpu": 10,
+      "ram": 8.34812,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:19:27.390Z",
+      "cpu": 10,
+      "ram": 8.29013,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:19:31.392Z",
+      "cpu": 0.6,
+      "ram": 8.56995,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:19:35.392Z",
+      "cpu": 10,
+      "ram": 8.70615,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:19:39.393Z",
+      "cpu": 0.6,
+      "ram": 8.63931,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:19:43.395Z",
+      "cpu": 10,
+      "ram": 8.65072,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:19:47.395Z",
+      "cpu": 0.6,
+      "ram": 8.52556,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:19:51.397Z",
+      "cpu": 10,
+      "ram": 8.57916,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:19:55.397Z",
+      "cpu": 10,
+      "ram": 8.84086,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:19:59.398Z",
+      "cpu": 10,
+      "ram": 8.54505,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:20:03.399Z",
+      "cpu": 0.6,
+      "ram": 8.79524,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:20:07.400Z",
+      "cpu": 10,
+      "ram": 8.51256,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:20:11.401Z",
+      "cpu": 10,
+      "ram": 8.51281,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:20:15.401Z",
+      "cpu": 10,
+      "ram": 8.6016,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:20:19.403Z",
+      "cpu": 10,
+      "ram": 8.68981,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:20:23.405Z",
+      "cpu": 10,
+      "ram": 8.76255,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:20:27.405Z",
+      "cpu": 10,
+      "ram": 8.58723,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:20:31.408Z",
+      "cpu": 10,
+      "ram": 8.67095,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:20:35.409Z",
+      "cpu": 10,
+      "ram": 8.67912,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:20:39.408Z",
+      "cpu": 10,
+      "ram": 8.69842,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:20:43.410Z",
+      "cpu": 0.6,
+      "ram": 8.85401,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:20:47.412Z",
+      "cpu": 3.2,
+      "ram": 8.62641,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:20:51.412Z",
+      "cpu": 10,
+      "ram": 8.71082,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:20:55.414Z",
+      "cpu": 10,
+      "ram": 8.77387,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:20:59.414Z",
+      "cpu": 10,
+      "ram": 8.70757,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:21:03.416Z",
+      "cpu": 10,
+      "ram": 9.02446,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:21:07.417Z",
+      "cpu": 4.1,
+      "ram": 8.86449,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:21:11.418Z",
+      "cpu": 10,
+      "ram": 9.10208,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:21:15.420Z",
+      "cpu": 0.6,
+      "ram": 9.00344,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:21:19.421Z",
+      "cpu": 10,
+      "ram": 8.91189,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:21:23.421Z",
+      "cpu": 10,
+      "ram": 8.59028,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:21:27.423Z",
+      "cpu": 10,
+      "ram": 8.62917,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:21:31.424Z",
+      "cpu": 0.6,
+      "ram": 8.77107,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:21:35.425Z",
+      "cpu": 10,
+      "ram": 8.93163,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:21:39.430Z",
+      "cpu": 10,
+      "ram": 8.80577,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:21:43.428Z",
+      "cpu": 10,
+      "ram": 8.88915,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:21:47.430Z",
+      "cpu": 0.6,
+      "ram": 8.97514,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:21:51.431Z",
+      "cpu": 10,
+      "ram": 8.71289,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:21:55.432Z",
+      "cpu": 10,
+      "ram": 8.61002,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:21:55.663Z",
+      "cpu": 5.4,
+      "ram": 8.82639,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:21:59.433Z",
+      "cpu": 1.9,
+      "ram": 8.63143,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:21:59.663Z",
+      "cpu": 5.3,
+      "ram": 8.60987,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:03.435Z",
+      "cpu": 0.7,
+      "ram": 8.85489,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:03.663Z",
+      "cpu": 6.6,
+      "ram": 8.95309,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:07.435Z",
+      "cpu": 0.6,
+      "ram": 8.64344,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:07.665Z",
+      "cpu": 7.3,
+      "ram": 8.41983,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:11.436Z",
+      "cpu": 1.4,
+      "ram": 8.34841,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:11.666Z",
+      "cpu": 5.3,
+      "ram": 8.66141,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:15.438Z",
+      "cpu": 10,
+      "ram": 8.8228,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:15.667Z",
+      "cpu": 6,
+      "ram": 8.82605,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:19.439Z",
+      "cpu": 10,
+      "ram": 8.57069,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:19.668Z",
+      "cpu": 6,
+      "ram": 8.64762,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:23.439Z",
+      "cpu": 10,
+      "ram": 8.56173,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:23.668Z",
+      "cpu": 6,
+      "ram": 8.53688,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:27.442Z",
+      "cpu": 0.7,
+      "ram": 8.65949,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:27.669Z",
+      "cpu": 6.6,
+      "ram": 8.74818,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:31.443Z",
+      "cpu": 10,
+      "ram": 8.77417,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:31.670Z",
+      "cpu": 5.9,
+      "ram": 8.79652,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:35.446Z",
+      "cpu": 1.4,
+      "ram": 9.0314,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:35.671Z",
+      "cpu": 5.9,
+      "ram": 8.9145,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:39.447Z",
+      "cpu": 2,
+      "ram": 8.57788,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:39.672Z",
+      "cpu": 6,
+      "ram": 8.70457,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:43.448Z",
+      "cpu": 10,
+      "ram": 8.83068,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:43.673Z",
+      "cpu": 6.6,
+      "ram": 8.92168,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:47.449Z",
+      "cpu": 7.1,
+      "ram": 8.63975,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:47.674Z",
+      "cpu": 8.3,
+      "ram": 8.63881,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:51.449Z",
+      "cpu": 10,
+      "ram": 8.51286,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:51.674Z",
+      "cpu": 6,
+      "ram": 8.68385,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:55.450Z",
+      "cpu": 0.6,
+      "ram": 8.87433,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:55.675Z",
+      "cpu": 6.6,
+      "ram": 8.75059,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:59.452Z",
+      "cpu": 10,
+      "ram": 8.57158,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:22:59.676Z",
+      "cpu": 6,
+      "ram": 8.83048,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:03.453Z",
+      "cpu": 10,
+      "ram": 8.85327,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:03.677Z",
+      "cpu": 5.9,
+      "ram": 8.66264,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:07.454Z",
+      "cpu": 10,
+      "ram": 8.74981,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:07.677Z",
+      "cpu": 5.9,
+      "ram": 8.88413,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:11.455Z",
+      "cpu": 10,
+      "ram": 8.83914,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:11.678Z",
+      "cpu": 6.6,
+      "ram": 8.72603,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:15.457Z",
+      "cpu": 10,
+      "ram": 9.07668,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:15.679Z",
+      "cpu": 5.9,
+      "ram": 8.99414,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:19.457Z",
+      "cpu": 0.6,
+      "ram": 8.84923,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:19.681Z",
+      "cpu": 6,
+      "ram": 8.72249,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:23.459Z",
+      "cpu": 10,
+      "ram": 8.97681,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:23.682Z",
+      "cpu": 5.9,
+      "ram": 8.87901,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:27.460Z",
+      "cpu": 10,
+      "ram": 8.9741,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:27.683Z",
+      "cpu": 5.3,
+      "ram": 9.03514,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:31.461Z",
+      "cpu": 10,
+      "ram": 8.56562,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:31.685Z",
+      "cpu": 5.9,
+      "ram": 8.83048,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:35.462Z",
+      "cpu": 10,
+      "ram": 9.01033,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:35.686Z",
+      "cpu": 6,
+      "ram": 9.0941,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:39.462Z",
+      "cpu": 10,
+      "ram": 8.73814,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:39.686Z",
+      "cpu": 5.3,
+      "ram": 8.75955,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:43.464Z",
+      "cpu": 10,
+      "ram": 8.78771,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:43.687Z",
+      "cpu": 6.6,
+      "ram": 9.01491,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:47.465Z",
+      "cpu": 0.6,
+      "ram": 8.77309,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:47.688Z",
+      "cpu": 6,
+      "ram": 8.87399,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:51.466Z",
+      "cpu": 0.6,
+      "ram": 8.60958,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:51.689Z",
+      "cpu": 6,
+      "ram": 8.65914,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:55.467Z",
+      "cpu": 10,
+      "ram": 8.81049,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:55.690Z",
+      "cpu": 5.9,
+      "ram": 9.028,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:59.469Z",
+      "cpu": 1.2,
+      "ram": 8.95693,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:23:59.691Z",
+      "cpu": 6.6,
+      "ram": 8.76497,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:03.470Z",
+      "cpu": 10,
+      "ram": 8.86021,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:03.692Z",
+      "cpu": 5.9,
+      "ram": 9.01274,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:07.471Z",
+      "cpu": 10,
+      "ram": 9.14421,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:07.692Z",
+      "cpu": 6.6,
+      "ram": 9.08145,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:11.473Z",
+      "cpu": 1.3,
+      "ram": 8.772,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:11.693Z",
+      "cpu": 6.6,
+      "ram": 8.95717,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:15.473Z",
+      "cpu": 10,
+      "ram": 8.99094,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:15.694Z",
+      "cpu": 5.9,
+      "ram": 9.12226,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:19.474Z",
+      "cpu": 10,
+      "ram": 8.80385,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:19.694Z",
+      "cpu": 6,
+      "ram": 8.78839,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:23.475Z",
+      "cpu": 10,
+      "ram": 8.92764,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:23.696Z",
+      "cpu": 6,
+      "ram": 8.77274,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:27.476Z",
+      "cpu": 10,
+      "ram": 8.76743,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:27.698Z",
+      "cpu": 5.3,
+      "ram": 8.69822,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:31.479Z",
+      "cpu": 10,
+      "ram": 9.01004,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:31.699Z",
+      "cpu": 6,
+      "ram": 8.9051,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:35.479Z",
+      "cpu": 10,
+      "ram": 8.98626,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:35.699Z",
+      "cpu": 6,
+      "ram": 8.92557,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:39.481Z",
+      "cpu": 10,
+      "ram": 8.93955,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:39.700Z",
+      "cpu": 6,
+      "ram": 8.94959,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:43.480Z",
+      "cpu": 10,
+      "ram": 8.99832,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:43.702Z",
+      "cpu": 5.4,
+      "ram": 8.98872,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:47.482Z",
+      "cpu": 10,
+      "ram": 8.9114,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:47.701Z",
+      "cpu": 6.6,
+      "ram": 8.9557,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:51.483Z",
+      "cpu": 1.4,
+      "ram": 8.90815,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:51.702Z",
+      "cpu": 6,
+      "ram": 8.95624,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:55.484Z",
+      "cpu": 10,
+      "ram": 9.13432,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:55.704Z",
+      "cpu": 6.6,
+      "ram": 9.07796,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:59.484Z",
+      "cpu": 0.7,
+      "ram": 8.91657,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:24:59.705Z",
+      "cpu": 5.9,
+      "ram": 8.8951,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:03.486Z",
+      "cpu": 10,
+      "ram": 9.08332,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:03.705Z",
+      "cpu": 6,
+      "ram": 9.03819,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:07.486Z",
+      "cpu": 10,
+      "ram": 9.23965,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:07.706Z",
+      "cpu": 5.9,
+      "ram": 9.23271,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:11.486Z",
+      "cpu": 0.7,
+      "ram": 8.95412,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:11.706Z",
+      "cpu": 6.6,
+      "ram": 8.88305,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:15.488Z",
+      "cpu": 0.6,
+      "ram": 8.87035,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:15.709Z",
+      "cpu": 6,
+      "ram": 9.03292,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:19.489Z",
+      "cpu": 10,
+      "ram": 8.75104,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:19.709Z",
+      "cpu": 5.4,
+      "ram": 8.40585,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:23.490Z",
+      "cpu": 10,
+      "ram": 8.53683,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:23.711Z",
+      "cpu": 6.7,
+      "ram": 8.63084,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:27.491Z",
+      "cpu": 10,
+      "ram": 8.82629,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:27.711Z",
+      "cpu": 5.9,
+      "ram": 8.80474,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:31.492Z",
+      "cpu": 10,
+      "ram": 8.88654,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:31.713Z",
+      "cpu": 6,
+      "ram": 9.17438,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:35.494Z",
+      "cpu": 10,
+      "ram": 9.06698,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:35.713Z",
+      "cpu": 6,
+      "ram": 9.15656,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:39.494Z",
+      "cpu": 10,
+      "ram": 8.95953,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:39.715Z",
+      "cpu": 5.9,
+      "ram": 9.12196,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:43.495Z",
+      "cpu": 10,
+      "ram": 9.10252,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:43.715Z",
+      "cpu": 5.9,
+      "ram": 8.85711,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:47.497Z",
+      "cpu": 10,
+      "ram": 8.84175,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:47.717Z",
+      "cpu": 6.7,
+      "ram": 8.66451,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:51.498Z",
+      "cpu": 1.4,
+      "ram": 8.5922,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:51.717Z",
+      "cpu": 4.8,
+      "ram": 8.76442,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:55.498Z",
+      "cpu": 10,
+      "ram": 9.08977,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:55.718Z",
+      "cpu": 5.9,
+      "ram": 9.0278,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:59.500Z",
+      "cpu": 10,
+      "ram": 9.17079,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:25:59.719Z",
+      "cpu": 5.9,
+      "ram": 9.04119,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:26:03.501Z",
+      "cpu": 0.7,
+      "ram": 9.05246,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:26:03.721Z",
+      "cpu": 6.7,
+      "ram": 9.02086,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:26:07.503Z",
+      "cpu": 1.9,
+      "ram": 9.22803,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:26:07.722Z",
+      "cpu": 5.9,
+      "ram": 9.12004,
+      "disk": 1
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T18:26:11.502Z",
+      "cpu": 10,
+      "ram": 9.01835,
+      "disk": 1
+    }
+  ],
+  "logs": [
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T07:07:40.669Z",
+      "level": "ERROR",
+      "source": "ssh-monitor",
+      "message": "[2026-08-12T07:07:43+0000] [ERROR] [simulator] FATAL: connection pool limit exceeded. client rejected.",
+      "id": "log-1786518472194-zbhtryyit"
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T07:07:40.669Z",
+      "level": "ERROR",
+      "source": "ssh-monitor",
+      "message": "[2026-08-12T07:07:43+0000] [ERROR] [simulator] OperationalError: FATAL: remaining connection slots are reserved for non-replication superuser connections",
+      "id": "log-1786518472195-uix8rg1wn"
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T07:11:56.723Z",
+      "level": "ERROR",
+      "source": "ssh-monitor",
+      "message": "[2026-08-12T07:11:56+0000] [ERROR] [simulator] FATAL: connection pool limit exceeded. client rejected.",
+      "id": "log-1786518717131-j7fbzke24"
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T07:11:56.723Z",
+      "level": "ERROR",
+      "source": "ssh-monitor",
+      "message": "[2026-08-12T07:11:56+0000] [ERROR] [simulator] OperationalError: FATAL: remaining connection slots are reserved for non-replication superuser connections",
+      "id": "log-1786518717131-xu1h6c9hl"
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T07:24:20.908Z",
+      "level": "WARN",
+      "source": "ssh-monitor",
+      "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+      "id": "log-1786519462026-zcckcfjlb"
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T07:24:20.908Z",
+      "level": "WARN",
+      "source": "ssh-monitor",
+      "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+      "id": "log-1786519462026-bc1gopcn4"
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T07:24:20.908Z",
+      "level": "WARN",
+      "source": "ssh-monitor",
+      "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+      "id": "log-1786519462027-w6lgm4mmp"
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T07:24:20.908Z",
+      "level": "WARN",
+      "source": "ssh-monitor",
+      "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+      "id": "log-1786519462029-0nhr2u1vb"
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T07:24:20.908Z",
+      "level": "WARN",
+      "source": "ssh-monitor",
+      "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+      "id": "log-1786519462030-he97qk97m"
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T07:24:20.908Z",
+      "level": "ERROR",
+      "source": "ssh-monitor",
+      "message": "[2026-08-12T07:24:19+0000] [ERROR] [simulator] High CPU load generated: Spawning calculation threads.",
+      "id": "log-1786519462030-hggifs5h9"
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T07:24:20.908Z",
+      "level": "WARN",
+      "source": "ssh-monitor",
+      "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+      "id": "log-1786519462031-5nq4ffpnq"
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T07:24:20.908Z",
+      "level": "WARN",
+      "source": "ssh-monitor",
+      "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+      "id": "log-1786519462032-wdv4x0mzz"
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T07:24:20.908Z",
+      "level": "WARN",
+      "source": "ssh-monitor",
+      "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+      "id": "log-1786519462032-9p04uuk1z"
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T07:24:48.912Z",
+      "level": "ERROR",
+      "source": "ssh-monitor",
+      "message": "[2026-08-12T07:24:46+0000] [ERROR] [simulator] FATAL: connection pool limit exceeded. client rejected.",
+      "id": "log-1786519489312-tj5b9qeoa"
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-08-12T07:24:48.912Z",
+      "level": "ERROR",
+      "source": "ssh-monitor",
+      "message": "[2026-08-12T07:24:46+0000] [ERROR] [simulator] OperationalError: FATAL: remaining connection slots are reserved for non-replication superuser connections",
+      "id": "log-1786519489313-owci2aled"
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T17:48:31.531Z",
+      "level": "WARN",
+      "source": "ssh-monitor",
+      "message": " * Running on all addresses (0.0.0.0)",
+      "id": "log-1789408112029-8vqtclizp"
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T17:48:31.531Z",
+      "level": "WARN",
+      "source": "ssh-monitor",
+      "message": " * Running on http://127.0.0.1:5000",
+      "id": "log-1789408112030-fuwtd87qe"
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "timestamp": "2026-09-14T17:48:31.531Z",
+      "level": "WARN",
+      "source": "ssh-monitor",
+      "message": " * Running on http://172.20.0.2:5000",
+      "id": "log-1789408112031-c0jg9zd2x"
+    }
+  ],
+  "incidents": [
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "severity": "CRITICAL",
+      "title": "Critical System Daemon Error: [ssh-monitor]",
+      "description": "The monitoring agent captured a critical error in system log stream from ssh-monitor: \"[2026-08-12T07:07:43+0000] [ERROR] [simulator] FATAL: connection pool limit exceeded. client rejected.\"",
+      "triggeredBy": "Log Alert Error: \"ssh-monitor\" daemon logged: [2026-08-12T07:07:43+0000] [ERROR] [simulator] FATAL: connection pool limit exceeded. client rejected.",
+      "logsContext": [
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:07:40.669Z",
+          "level": "ERROR",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:07:43+0000] [ERROR] [simulator] FATAL: connection pool limit exceeded. client rejected.",
+          "id": "log-1786518472194-zbhtryyit"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:07:40.669Z",
+          "level": "ERROR",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:07:43+0000] [ERROR] [simulator] OperationalError: FATAL: remaining connection slots are reserved for non-replication superuser connections",
+          "id": "log-1786518472195-uix8rg1wn"
+        }
+      ],
+      "metricsContext": [
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:07:04.662Z",
+          "cpu": 10,
+          "ram": 9.91574,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:07:08.663Z",
+          "cpu": 10,
+          "ram": 9.88242,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:07:12.664Z",
+          "cpu": 10,
+          "ram": 10.3284,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:07:16.665Z",
+          "cpu": 10,
+          "ram": 9.7546,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:07:20.666Z",
+          "cpu": 10,
+          "ram": 9.84752,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:07:24.667Z",
+          "cpu": 10,
+          "ram": 9.86096,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:07:28.669Z",
+          "cpu": 10,
+          "ram": 9.69927,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:07:32.669Z",
+          "cpu": 10,
+          "ram": 9.75809,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:07:36.668Z",
+          "cpu": 0.6,
+          "ram": 9.46961,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:07:40.669Z",
+          "cpu": 0.7,
+          "ram": 9.72241,
+          "disk": 1
+        }
+      ],
+      "id": "incident-1786518472196-vgafaq4lg",
+      "status": "RESOLVED",
+      "createdAt": "2026-08-12T07:07:52.196Z",
+      "diagnosticCommandsRun": [
+        {
+          "command": "uptime",
+          "output": " 07:07:53 up  2:05,  0 users,  load average: 0.70, 0.65, 1.05\n",
+          "timestamp": "2026-08-12T07:07:53.193Z"
+        },
+        {
+          "command": "free -h",
+          "output": "               total        used        free      shared  buff/cache   available\nMem:           7.8Gi       772Mi       5.3Gi        14Mi       1.7Gi       6.8Gi\nSwap:          1.0Gi          0B       1.0Gi\n",
+          "timestamp": "2026-08-12T07:07:58.193Z"
+        },
+        {
+          "command": "df -h",
+          "output": "Filesystem      Size  Used Avail Use% Mounted on\noverlay         911G  7.3G  858G   1% /\ntmpfs            64M     0   64M   0% /dev\nshm              64M     0   64M   0% /dev/shm\n/dev/vda1       911G  7.3G  858G   1% /etc/hosts\ntmpfs           3.9G     0  3.9G   0% /proc/scsi\ntmpfs           3.9G     0  3.9G   0% /sys/firmware\n",
+          "timestamp": "2026-08-12T07:08:03.197Z"
+        },
+        {
+          "command": "ps -eo %cpu,%mem,pid,cmd --sort=-%cpu | head -n 8",
+          "output": "%CPU %MEM   PID CMD\n 3.0  0.1 10716 sshd: root\n 3.0  0.1 10717 sshd: root\n 3.0  0.1 10719 sshd: root@notty\n 2.0  0.1 10715 sshd: root@notty\n 2.0  0.1 10718 sshd: root@notty\n 2.0  0.1 10720 sshd: root\n 0.8  0.0 79177 [python3] <defunct>\n",
+          "timestamp": "2026-08-12T07:08:07.202Z"
+        },
+        {
+          "command": "dmesg -T | tail -n 25",
+          "output": "\nSTDERR:\ndmesg: read kernel buffer failed: Operation not permitted\n",
+          "timestamp": "2026-08-12T07:08:08.199Z"
+        },
+        {
+          "command": "ss -antp | head -n 20",
+          "output": "State      Recv-Q Send-Q Local Address:Port  Peer Address:Port Process                         \nLISTEN     0      128          0.0.0.0:5000       0.0.0.0:*     users:((\"python3\",pid=9,fd=4)) \nLISTEN     0      4096      127.0.0.11:42631      0.0.0.0:*                                    \nLISTEN     0      128          0.0.0.0:22         0.0.0.0:*     users:((\"sshd\",pid=8,fd=3))    \nTIME-WAIT  0      0         172.20.0.2:22    192.168.65.1:26793                                \nTIME-WAIT  0      0         172.20.0.2:22    192.168.65.1:53455                                \nTIME-WAIT  0      0         172.20.0.2:22    192.168.65.1:27045                                \nTIME-WAIT  0      0         172.20.0.2:22    192.168.65.1:44101                                \nTIME-WAIT  0      0         172.20.0.2:22    192.168.65.1:49672                                \nESTAB      0      0         172.20.0.2:22    192.168.65.1:36662 users:((\"sshd\",pid=10887,fd=4))\nESTAB      0      0         172.20.0.2:22    192.168.65.1:61265 users:((\"sshd\",pid=10885,fd=4))\nTIME-WAIT  0      0         172.20.0.2:22    192.168.65.1:39955                                \nTIME-WAIT  0      0         172.20.0.2:22    192.168.65.1:32381                                \nTIME-WAIT  0      0         172.20.0.2:22    192.168.65.1:61547                                \nTIME-WAIT  0      0         172.20.0.2:22    192.168.65.1:26353                                \nTIME-WAIT  0      0         172.20.0.2:22    192.168.65.1:59936                                \nTIME-WAIT  0      0         172.20.0.2:22    192.168.65.1:42556                                \nFIN-WAIT-2 0      0         172.20.0.2:22    192.168.65.1:55490                                \nLISTEN     0      128             [::]:22            [::]:*     users:((\"sshd\",pid=8,fd=4))    \n",
+          "timestamp": "2026-08-12T07:08:12.207Z"
+        }
+      ],
+      "resolvedAt": "2026-08-12T07:08:12.209Z",
+      "rcaReport": {
+        "summary": "Incoming traffic overflowed server worker capacity.",
+        "rootCause": "Nginx worker connection starvation and Postgres DB connection pool saturation.",
+        "impact": "New clients received 502 Bad Gateway responses; database rejected connection requests.",
+        "technicalAnalysis": "System metrics show moderate CPU load, but logs reveal \"4096 worker_connections are not enough\" and \"FATAL: connection pool limit exceeded\".",
+        "remediationSteps": [
+          "Increase connection limits in `/etc/nginx/nginx.conf` (`worker_connections 8192;`).",
+          "Configure connection pooling backend (e.g. pgBouncer) for postgres database.",
+          "Check system socket limits: `sysctl -w net.core.somaxconn=1024`.",
+          "Gracefully reload services: `nginx -s reload`."
+        ],
+        "aiModel": "Local SRE Template Engine",
+        "generatedAt": "2026-08-12T07:08:12.209Z"
+      }
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "severity": "CRITICAL",
+      "title": "Critical System Daemon Error: [ssh-monitor]",
+      "description": "The monitoring agent captured a critical error in system log stream from ssh-monitor: \"[2026-08-12T07:11:56+0000] [ERROR] [simulator] FATAL: connection pool limit exceeded. client rejected.\"",
+      "triggeredBy": "Log Alert Error: \"ssh-monitor\" daemon logged: [2026-08-12T07:11:56+0000] [ERROR] [simulator] FATAL: connection pool limit exceeded. client rejected.",
+      "logsContext": [
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:07:40.669Z",
+          "level": "ERROR",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:07:43+0000] [ERROR] [simulator] FATAL: connection pool limit exceeded. client rejected.",
+          "id": "log-1786518472194-zbhtryyit"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:07:40.669Z",
+          "level": "ERROR",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:07:43+0000] [ERROR] [simulator] OperationalError: FATAL: remaining connection slots are reserved for non-replication superuser connections",
+          "id": "log-1786518472195-uix8rg1wn"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:11:56.723Z",
+          "level": "ERROR",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:11:56+0000] [ERROR] [simulator] FATAL: connection pool limit exceeded. client rejected.",
+          "id": "log-1786518717131-j7fbzke24"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:11:56.723Z",
+          "level": "ERROR",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:11:56+0000] [ERROR] [simulator] OperationalError: FATAL: remaining connection slots are reserved for non-replication superuser connections",
+          "id": "log-1786518717131-xu1h6c9hl"
+        }
+      ],
+      "metricsContext": [
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:11:20.719Z",
+          "cpu": 10,
+          "ram": 9.45095,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:11:24.720Z",
+          "cpu": 0.6,
+          "ram": 9.62076,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:11:28.721Z",
+          "cpu": 10,
+          "ram": 9.55988,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:11:32.721Z",
+          "cpu": 10,
+          "ram": 9.51115,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:11:36.721Z",
+          "cpu": 10,
+          "ram": 9.8173,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:11:40.721Z",
+          "cpu": 10,
+          "ram": 9.8488,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:11:44.722Z",
+          "cpu": 10,
+          "ram": 9.73136,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:11:48.722Z",
+          "cpu": 10,
+          "ram": 9.70331,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:11:52.723Z",
+          "cpu": 10,
+          "ram": 9.83374,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:11:56.723Z",
+          "cpu": 0.6,
+          "ram": 9.72201,
+          "disk": 1
+        }
+      ],
+      "id": "incident-1786518717133-makibheu7",
+      "status": "RESOLVED",
+      "createdAt": "2026-08-12T07:11:57.133Z",
+      "diagnosticCommandsRun": [
+        {
+          "command": "uptime",
+          "output": " 07:11:57 up  2:09,  0 users,  load average: 1.42, 0.92, 1.05\n",
+          "timestamp": "2026-08-12T07:11:57.190Z"
+        },
+        {
+          "command": "free -h",
+          "output": "               total        used        free      shared  buff/cache   available\nMem:           7.8Gi       792Mi       5.3Gi        14Mi       1.7Gi       6.8Gi\nSwap:          1.0Gi          0B       1.0Gi\n",
+          "timestamp": "2026-08-12T07:11:57.228Z"
+        },
+        {
+          "command": "df -h",
+          "output": "Filesystem      Size  Used Avail Use% Mounted on\noverlay         911G  7.3G  858G   1% /\ntmpfs            64M     0   64M   0% /dev\nshm              64M     0   64M   0% /dev/shm\n/dev/vda1       911G  7.3G  858G   1% /etc/hosts\ntmpfs           3.9G     0  3.9G   0% /proc/scsi\ntmpfs           3.9G     0  3.9G   0% /sys/firmware\n",
+          "timestamp": "2026-08-12T07:11:57.266Z"
+        },
+        {
+          "command": "ps -eo %cpu,%mem,pid,cmd --sort=-%cpu | head -n 8",
+          "output": "%CPU %MEM   PID CMD\n 0.7  0.0 79177 [python3] <defunct>\n 0.7  0.0 79178 [python3] <defunct>\n 0.7  0.0 79179 [python3] <defunct>\n 0.7  0.0 79183 [python3] <defunct>\n 0.7  0.0 79186 [python3] <defunct>\n 0.6  0.0 79180 [python3] <defunct>\n 0.6  0.0 79181 [python3] <defunct>\n",
+          "timestamp": "2026-08-12T07:11:57.303Z"
+        },
+        {
+          "command": "dmesg -T | tail -n 25",
+          "output": "\nSTDERR:\ndmesg: read kernel buffer failed: Operation not permitted\n",
+          "timestamp": "2026-08-12T07:11:57.341Z"
+        },
+        {
+          "command": "ss -antp | head -n 20",
+          "output": "State     Recv-Q Send-Q Local Address:Port  Peer Address:Port Process                         \nLISTEN    0      128          0.0.0.0:5000       0.0.0.0:*     users:((\"python3\",pid=9,fd=4)) \nLISTEN    0      4096      127.0.0.11:42631      0.0.0.0:*                                    \nLISTEN    0      128          0.0.0.0:22         0.0.0.0:*     users:((\"sshd\",pid=8,fd=3))    \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:60825                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:59930                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:25150                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:60150                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:53977                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:48232                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:35554                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:47918                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:59596                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:43474                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:30561                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:63409                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:53926                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:39546                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:52550                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:36802                                \n",
+          "timestamp": "2026-08-12T07:11:57.381Z"
+        }
+      ],
+      "resolvedAt": "2026-08-12T07:11:57.382Z",
+      "rcaReport": {
+        "summary": "Incoming traffic overflowed server worker capacity.",
+        "rootCause": "Nginx worker connection starvation and Postgres DB connection pool saturation.",
+        "impact": "New clients received 502 Bad Gateway responses; database rejected connection requests.",
+        "technicalAnalysis": "System metrics show moderate CPU load, but logs reveal \"4096 worker_connections are not enough\" and \"FATAL: connection pool limit exceeded\".",
+        "remediationSteps": [
+          "Increase connection limits in `/etc/nginx/nginx.conf` (`worker_connections 8192;`).",
+          "Configure connection pooling backend (e.g. pgBouncer) for postgres database.",
+          "Check system socket limits: `sysctl -w net.core.somaxconn=1024`.",
+          "Gracefully reload services: `nginx -s reload`."
+        ],
+        "aiModel": "Local SRE Template Engine",
+        "generatedAt": "2026-08-12T07:11:57.382Z"
+      }
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "severity": "CRITICAL",
+      "title": "Critical System Daemon Error: [ssh-monitor]",
+      "description": "The monitoring agent captured a critical error in system log stream from ssh-monitor: \"[2026-08-12T07:24:19+0000] [ERROR] [simulator] High CPU load generated: Spawning calculation threads.\"",
+      "triggeredBy": "Log Alert Error: \"ssh-monitor\" daemon logged: [2026-08-12T07:24:19+0000] [ERROR] [simulator] High CPU load generated: Spawning calculation threads.",
+      "logsContext": [
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:07:40.669Z",
+          "level": "ERROR",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:07:43+0000] [ERROR] [simulator] FATAL: connection pool limit exceeded. client rejected.",
+          "id": "log-1786518472194-zbhtryyit"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:07:40.669Z",
+          "level": "ERROR",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:07:43+0000] [ERROR] [simulator] OperationalError: FATAL: remaining connection slots are reserved for non-replication superuser connections",
+          "id": "log-1786518472195-uix8rg1wn"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:11:56.723Z",
+          "level": "ERROR",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:11:56+0000] [ERROR] [simulator] FATAL: connection pool limit exceeded. client rejected.",
+          "id": "log-1786518717131-j7fbzke24"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:11:56.723Z",
+          "level": "ERROR",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:11:56+0000] [ERROR] [simulator] OperationalError: FATAL: remaining connection slots are reserved for non-replication superuser connections",
+          "id": "log-1786518717131-xu1h6c9hl"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "level": "WARN",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+          "id": "log-1786519462026-zcckcfjlb"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "level": "WARN",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+          "id": "log-1786519462026-bc1gopcn4"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "level": "WARN",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+          "id": "log-1786519462027-w6lgm4mmp"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "level": "WARN",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+          "id": "log-1786519462029-0nhr2u1vb"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "level": "WARN",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+          "id": "log-1786519462030-he97qk97m"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "level": "ERROR",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:19+0000] [ERROR] [simulator] High CPU load generated: Spawning calculation threads.",
+          "id": "log-1786519462030-hggifs5h9"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "level": "WARN",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+          "id": "log-1786519462031-5nq4ffpnq"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "level": "WARN",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+          "id": "log-1786519462032-wdv4x0mzz"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "level": "WARN",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+          "id": "log-1786519462032-9p04uuk1z"
+        }
+      ],
+      "metricsContext": [
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:23:44.899Z",
+          "cpu": 10,
+          "ram": 9.75588,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:23:48.900Z",
+          "cpu": 0.6,
+          "ram": 9.60659,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:23:52.902Z",
+          "cpu": 10,
+          "ram": 9.2491,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:23:56.903Z",
+          "cpu": 10,
+          "ram": 9.5114,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:00.903Z",
+          "cpu": 10,
+          "ram": 9.60245,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:04.904Z",
+          "cpu": 0.6,
+          "ram": 9.5899,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:08.905Z",
+          "cpu": 10,
+          "ram": 9.79993,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:12.906Z",
+          "cpu": 10,
+          "ram": 9.59069,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:16.907Z",
+          "cpu": 10,
+          "ram": 9.44716,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "cpu": 10,
+          "ram": 9.93169,
+          "disk": 1
+        }
+      ],
+      "id": "incident-1786519462035-msqh3c7ut",
+      "status": "RESOLVED",
+      "createdAt": "2026-08-12T07:24:22.035Z",
+      "diagnosticCommandsRun": [
+        {
+          "command": "uptime",
+          "output": " 07:24:22 up  2:22,  0 users,  load average: 1.03, 0.89, 1.14\n",
+          "timestamp": "2026-08-12T07:24:22.274Z"
+        },
+        {
+          "command": "free -h",
+          "output": "               total        used        free      shared  buff/cache   available\nMem:           7.8Gi       803Mi       5.3Gi        14Mi       1.7Gi       6.8Gi\nSwap:          1.0Gi          0B       1.0Gi\n",
+          "timestamp": "2026-08-12T07:24:22.526Z"
+        },
+        {
+          "command": "df -h",
+          "output": "Filesystem      Size  Used Avail Use% Mounted on\noverlay         911G  7.3G  858G   1% /\ntmpfs            64M     0   64M   0% /dev\nshm              64M     0   64M   0% /dev/shm\n/dev/vda1       911G  7.3G  858G   1% /etc/hosts\ntmpfs           3.9G     0  3.9G   0% /proc/scsi\ntmpfs           3.9G     0  3.9G   0% /sys/firmware\n",
+          "timestamp": "2026-08-12T07:24:22.718Z"
+        },
+        {
+          "command": "ps -eo %cpu,%mem,pid,cmd --sort=-%cpu | head -n 8",
+          "output": "%CPU %MEM   PID CMD\n 113  0.3 28326 python3 app.py\n 112  0.3 28328 python3 app.py\n 112  0.3 28330 python3 app.py\n 111  0.3 28333 python3 app.py\n 110  0.3 28327 python3 app.py\n 110  0.3 28332 python3 app.py\n 109  0.3 28329 python3 app.py\n",
+          "timestamp": "2026-08-12T07:24:22.874Z"
+        },
+        {
+          "command": "dmesg -T | tail -n 25",
+          "output": "\nSTDERR:\ndmesg: read kernel buffer failed: Operation not permitted\n",
+          "timestamp": "2026-08-12T07:24:23.074Z"
+        },
+        {
+          "command": "ss -antp | head -n 20",
+          "output": "State     Recv-Q Send-Q Local Address:Port  Peer Address:Port Process                                                                                                                                                                                                                                                                                                      \nLISTEN    0      128          0.0.0.0:5000       0.0.0.0:*     users:((\"python3\",pid=28333,fd=4),(\"python3\",pid=28332,fd=4),(\"python3\",pid=28331,fd=4),(\"python3\",pid=28330,fd=4),(\"python3\",pid=28329,fd=4),(\"python3\",pid=28328,fd=4),(\"python3\",pid=28327,fd=4),(\"python3\",pid=28326,fd=4),(\"python3\",pid=28325,fd=4),(\"python3\",pid=28324,fd=4),(\"python3\",pid=9,fd=4))\nLISTEN    0      4096      127.0.0.11:42631      0.0.0.0:*                                                                                                                                                                                                                                                                                                                 \nLISTEN    0      128          0.0.0.0:22         0.0.0.0:*     users:((\"sshd\",pid=8,fd=3))                                                                                                                                                                                                                                                                                 \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:61405                                                                                                                                                                                                                                                                                                             \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:18650                                                                                                                                                                                                                                                                                                             \nTIME-WAIT 0      0         172.20.0.2:5000  192.168.65.1:47489                                                                                                                                                                                                                                                                                                             \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:35552                                                                                                                                                                                                                                                                                                             \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:25643                                                                                                                                                                                                                                                                                                             \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:48030                                                                                                                                                                                                                                                                                                             \nESTAB     0      0         172.20.0.2:22    192.168.65.1:22714 users:((\"sshd\",pid=28469,fd=4))                                                                                                                                                                                                                                                                             \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:24955                                                                                                                                                                                                                                                                                                             \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:47806                                                                                                                                                                                                                                                                                                             \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:32321                                                                                                                                                                                                                                                                                                             \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:34703                                                                                                                                                                                                                                                                                                             \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:41444                                                                                                                                                                                                                                                                                                             \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:57880                                                                                                                                                                                                                                                                                                             \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:64877                                                                                                                                                                                                                                                                                                             \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:21671                                                                                                                                                                                                                                                                                                             \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:44090                                                                                                                                                                                                                                                                                                             \n",
+          "timestamp": "2026-08-12T07:24:23.242Z"
+        }
+      ],
+      "resolvedAt": "2026-08-12T07:24:23.243Z",
+      "rcaReport": {
+        "summary": "The CPU utilization spiked to critical levels, saturating system cores.",
+        "rootCause": "Infinite process loop or runaway thread in Node worker process (PID 4819).",
+        "impact": "Severely delayed event loop execution, causing API timeout rates to rise above 8%.",
+        "technicalAnalysis": "CPU usage spiked to 94%+ while RAM remained stable. SSH diagnostics `ps aux` command showed Node worker thread occupying 94.2% CPU resources.",
+        "remediationSteps": [
+          "Locate runaway thread using `pidstat -u -p 4819 1 5`.",
+          "Terminate the offending process: `kill -9 4819`.",
+          "Audit event loop blocking operations in the worker scheduler code.",
+          "Configure CPU quota limits in the systemd service file (`CPUQuota=80%`)."
+        ],
+        "aiModel": "Local SRE Template Engine",
+        "generatedAt": "2026-08-12T07:24:23.243Z"
+      }
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "severity": "CRITICAL",
+      "title": "High CPU Anomaly on Aura Docker Target",
+      "description": "The system detected that CPU usage has spiked to 100%, which exceeds the alert threshold of 85%.",
+      "triggeredBy": "Metric Threshold: CPU utilization reached 100%",
+      "logsContext": [
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:07:40.669Z",
+          "level": "ERROR",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:07:43+0000] [ERROR] [simulator] FATAL: connection pool limit exceeded. client rejected.",
+          "id": "log-1786518472194-zbhtryyit"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:07:40.669Z",
+          "level": "ERROR",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:07:43+0000] [ERROR] [simulator] OperationalError: FATAL: remaining connection slots are reserved for non-replication superuser connections",
+          "id": "log-1786518472195-uix8rg1wn"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:11:56.723Z",
+          "level": "ERROR",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:11:56+0000] [ERROR] [simulator] FATAL: connection pool limit exceeded. client rejected.",
+          "id": "log-1786518717131-j7fbzke24"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:11:56.723Z",
+          "level": "ERROR",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:11:56+0000] [ERROR] [simulator] OperationalError: FATAL: remaining connection slots are reserved for non-replication superuser connections",
+          "id": "log-1786518717131-xu1h6c9hl"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "level": "WARN",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+          "id": "log-1786519462026-zcckcfjlb"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "level": "WARN",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+          "id": "log-1786519462026-bc1gopcn4"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "level": "WARN",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+          "id": "log-1786519462027-w6lgm4mmp"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "level": "WARN",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+          "id": "log-1786519462029-0nhr2u1vb"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "level": "WARN",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+          "id": "log-1786519462030-he97qk97m"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "level": "ERROR",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:19+0000] [ERROR] [simulator] High CPU load generated: Spawning calculation threads.",
+          "id": "log-1786519462030-hggifs5h9"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "level": "WARN",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+          "id": "log-1786519462031-5nq4ffpnq"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "level": "WARN",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+          "id": "log-1786519462032-wdv4x0mzz"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "level": "WARN",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+          "id": "log-1786519462032-9p04uuk1z"
+        }
+      ],
+      "metricsContext": [
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:23:48.900Z",
+          "cpu": 0.6,
+          "ram": 9.60659,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:23:52.902Z",
+          "cpu": 10,
+          "ram": 9.2491,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:23:56.903Z",
+          "cpu": 10,
+          "ram": 9.5114,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:00.903Z",
+          "cpu": 10,
+          "ram": 9.60245,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:04.904Z",
+          "cpu": 0.6,
+          "ram": 9.5899,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:08.905Z",
+          "cpu": 10,
+          "ram": 9.79993,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:12.906Z",
+          "cpu": 10,
+          "ram": 9.59069,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:16.907Z",
+          "cpu": 10,
+          "ram": 9.44716,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "cpu": 10,
+          "ram": 9.93169,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:24.908Z",
+          "cpu": 100,
+          "ram": 10.1881,
+          "disk": 1
+        }
+      ],
+      "id": "incident-1786519466079-dgze9av8z",
+      "status": "RESOLVED",
+      "createdAt": "2026-08-12T07:24:26.079Z",
+      "diagnosticCommandsRun": [
+        {
+          "command": "uptime",
+          "output": " 07:24:26 up  2:22,  0 users,  load average: 1.03, 0.89, 1.14\n",
+          "timestamp": "2026-08-12T07:24:26.136Z"
+        },
+        {
+          "command": "free -h",
+          "output": "               total        used        free      shared  buff/cache   available\nMem:           7.8Gi       768Mi       5.3Gi        14Mi       1.7Gi       6.8Gi\nSwap:          1.0Gi          0B       1.0Gi\n",
+          "timestamp": "2026-08-12T07:24:26.191Z"
+        },
+        {
+          "command": "df -h",
+          "output": "Filesystem      Size  Used Avail Use% Mounted on\noverlay         911G  7.3G  858G   1% /\ntmpfs            64M     0   64M   0% /dev\nshm              64M     0   64M   0% /dev/shm\n/dev/vda1       911G  7.3G  858G   1% /etc/hosts\ntmpfs           3.9G     0  3.9G   0% /proc/scsi\ntmpfs           3.9G     0  3.9G   0% /sys/firmware\n",
+          "timestamp": "2026-08-12T07:24:26.247Z"
+        },
+        {
+          "command": "ps -eo %cpu,%mem,pid,cmd --sort=-%cpu | head -n 8",
+          "output": "%CPU %MEM   PID CMD\n93.2  0.0 28328 [python3] <defunct>\n93.0  0.0 28330 [python3] <defunct>\n92.8  0.0 28333 [python3] <defunct>\n92.7  0.0 28326 [python3] <defunct>\n92.7  0.0 28327 [python3] <defunct>\n91.2  0.0 28324 [python3] <defunct>\n91.2  0.0 28332 [python3] <defunct>\n",
+          "timestamp": "2026-08-12T07:24:26.299Z"
+        },
+        {
+          "command": "dmesg -T | tail -n 25",
+          "output": "\nSTDERR:\ndmesg: read kernel buffer failed: Operation not permitted\n",
+          "timestamp": "2026-08-12T07:24:26.338Z"
+        },
+        {
+          "command": "ss -antp | head -n 20",
+          "output": "State     Recv-Q Send-Q Local Address:Port  Peer Address:Port Process                         \nLISTEN    0      128          0.0.0.0:5000       0.0.0.0:*     users:((\"python3\",pid=9,fd=4)) \nLISTEN    0      4096      127.0.0.11:42631      0.0.0.0:*                                    \nLISTEN    0      128          0.0.0.0:22         0.0.0.0:*     users:((\"sshd\",pid=8,fd=3))    \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:61405                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:18650                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:53363                                \nTIME-WAIT 0      0         172.20.0.2:5000  192.168.65.1:47489                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:35552                                \nESTAB     0      0         172.20.0.2:22    192.168.65.1:43099 users:((\"sshd\",pid=28619,fd=4))\nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:25643                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:48030                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:22714                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:24955                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:47806                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:32321                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:34703                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:41444                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:57880                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:64877                                \n",
+          "timestamp": "2026-08-12T07:24:26.378Z"
+        }
+      ],
+      "resolvedAt": "2026-08-12T07:24:26.379Z",
+      "rcaReport": {
+        "summary": "The CPU utilization spiked to critical levels, saturating system cores.",
+        "rootCause": "Infinite process loop or runaway thread in Node worker process (PID 4819).",
+        "impact": "Severely delayed event loop execution, causing API timeout rates to rise above 8%.",
+        "technicalAnalysis": "CPU usage spiked to 94%+ while RAM remained stable. SSH diagnostics `ps aux` command showed Node worker thread occupying 94.2% CPU resources.",
+        "remediationSteps": [
+          "Locate runaway thread using `pidstat -u -p 4819 1 5`.",
+          "Terminate the offending process: `kill -9 4819`.",
+          "Audit event loop blocking operations in the worker scheduler code.",
+          "Configure CPU quota limits in the systemd service file (`CPUQuota=80%`)."
+        ],
+        "aiModel": "Local SRE Template Engine",
+        "generatedAt": "2026-08-12T07:24:26.379Z"
+      }
+    },
+    {
+      "serverId": "server-1786518279736-22za2w13i",
+      "severity": "CRITICAL",
+      "title": "Critical System Daemon Error: [ssh-monitor]",
+      "description": "The monitoring agent captured a critical error in system log stream from ssh-monitor: \"[2026-08-12T07:24:46+0000] [ERROR] [simulator] FATAL: connection pool limit exceeded. client rejected.\"",
+      "triggeredBy": "Log Alert Error: \"ssh-monitor\" daemon logged: [2026-08-12T07:24:46+0000] [ERROR] [simulator] FATAL: connection pool limit exceeded. client rejected.",
+      "logsContext": [
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:07:40.669Z",
+          "level": "ERROR",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:07:43+0000] [ERROR] [simulator] FATAL: connection pool limit exceeded. client rejected.",
+          "id": "log-1786518472194-zbhtryyit"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:07:40.669Z",
+          "level": "ERROR",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:07:43+0000] [ERROR] [simulator] OperationalError: FATAL: remaining connection slots are reserved for non-replication superuser connections",
+          "id": "log-1786518472195-uix8rg1wn"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:11:56.723Z",
+          "level": "ERROR",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:11:56+0000] [ERROR] [simulator] FATAL: connection pool limit exceeded. client rejected.",
+          "id": "log-1786518717131-j7fbzke24"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:11:56.723Z",
+          "level": "ERROR",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:11:56+0000] [ERROR] [simulator] OperationalError: FATAL: remaining connection slots are reserved for non-replication superuser connections",
+          "id": "log-1786518717131-xu1h6c9hl"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "level": "WARN",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+          "id": "log-1786519462026-zcckcfjlb"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "level": "WARN",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+          "id": "log-1786519462026-bc1gopcn4"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "level": "WARN",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+          "id": "log-1786519462027-w6lgm4mmp"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "level": "WARN",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+          "id": "log-1786519462029-0nhr2u1vb"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "level": "WARN",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+          "id": "log-1786519462030-he97qk97m"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "level": "ERROR",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:19+0000] [ERROR] [simulator] High CPU load generated: Spawning calculation threads.",
+          "id": "log-1786519462030-hggifs5h9"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "level": "WARN",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+          "id": "log-1786519462031-5nq4ffpnq"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "level": "WARN",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+          "id": "log-1786519462032-wdv4x0mzz"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "level": "WARN",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:19+0000] [WARNING] [simulator] CPU hog thread started.",
+          "id": "log-1786519462032-9p04uuk1z"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:48.912Z",
+          "level": "ERROR",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:46+0000] [ERROR] [simulator] FATAL: connection pool limit exceeded. client rejected.",
+          "id": "log-1786519489312-tj5b9qeoa"
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:48.912Z",
+          "level": "ERROR",
+          "source": "ssh-monitor",
+          "message": "[2026-08-12T07:24:46+0000] [ERROR] [simulator] OperationalError: FATAL: remaining connection slots are reserved for non-replication superuser connections",
+          "id": "log-1786519489313-owci2aled"
+        }
+      ],
+      "metricsContext": [
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:12.906Z",
+          "cpu": 10,
+          "ram": 9.59069,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:16.907Z",
+          "cpu": 10,
+          "ram": 9.44716,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:20.908Z",
+          "cpu": 10,
+          "ram": 9.93169,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:24.908Z",
+          "cpu": 100,
+          "ram": 10.1881,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:28.908Z",
+          "cpu": 10,
+          "ram": 9.71084,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:32.909Z",
+          "cpu": 10,
+          "ram": 9.43003,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:36.909Z",
+          "cpu": 10,
+          "ram": 9.51159,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:40.910Z",
+          "cpu": 10,
+          "ram": 9.19328,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:44.911Z",
+          "cpu": 0.6,
+          "ram": 9.56761,
+          "disk": 1
+        },
+        {
+          "serverId": "server-1786518279736-22za2w13i",
+          "timestamp": "2026-08-12T07:24:48.912Z",
+          "cpu": 10,
+          "ram": 9.69981,
+          "disk": 1
+        }
+      ],
+      "id": "incident-1786519489317-bpf58ndyh",
+      "status": "RESOLVED",
+      "createdAt": "2026-08-12T07:24:49.317Z",
+      "diagnosticCommandsRun": [
+        {
+          "command": "uptime",
+          "output": " 07:24:49 up  2:22,  0 users,  load average: 0.76, 0.84, 1.12\n",
+          "timestamp": "2026-08-12T07:24:49.356Z"
+        },
+        {
+          "command": "free -h",
+          "output": "               total        used        free      shared  buff/cache   available\nMem:           7.8Gi       782Mi       5.3Gi        14Mi       1.7Gi       6.8Gi\nSwap:          1.0Gi          0B       1.0Gi\n",
+          "timestamp": "2026-08-12T07:24:49.394Z"
+        },
+        {
+          "command": "df -h",
+          "output": "Filesystem      Size  Used Avail Use% Mounted on\noverlay         911G  7.3G  858G   1% /\ntmpfs            64M     0   64M   0% /dev\nshm              64M     0   64M   0% /dev/shm\n/dev/vda1       911G  7.3G  858G   1% /etc/hosts\ntmpfs           3.9G     0  3.9G   0% /proc/scsi\ntmpfs           3.9G     0  3.9G   0% /sys/firmware\n",
+          "timestamp": "2026-08-12T07:24:49.433Z"
+        },
+        {
+          "command": "ps -eo %cpu,%mem,pid,cmd --sort=-%cpu | head -n 8",
+          "output": "%CPU %MEM   PID CMD\n21.7  0.0 28328 [python3] <defunct>\n21.7  0.0 28330 [python3] <defunct>\n21.6  0.0 28326 [python3] <defunct>\n21.6  0.0 28327 [python3] <defunct>\n21.6  0.0 28333 [python3] <defunct>\n21.3  0.0 28324 [python3] <defunct>\n21.3  0.0 28332 [python3] <defunct>\n",
+          "timestamp": "2026-08-12T07:24:49.470Z"
+        },
+        {
+          "command": "dmesg -T | tail -n 25",
+          "output": "\nSTDERR:\ndmesg: read kernel buffer failed: Operation not permitted\n",
+          "timestamp": "2026-08-12T07:24:49.509Z"
+        },
+        {
+          "command": "ss -antp | head -n 20",
+          "output": "State     Recv-Q Send-Q Local Address:Port  Peer Address:Port Process                         \nLISTEN    0      128          0.0.0.0:5000       0.0.0.0:*     users:((\"python3\",pid=9,fd=4)) \nLISTEN    0      4096      127.0.0.11:42631      0.0.0.0:*                                    \nLISTEN    0      128          0.0.0.0:22         0.0.0.0:*     users:((\"sshd\",pid=8,fd=3))    \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:18650                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:53363                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:43573                                \nTIME-WAIT 0      0         172.20.0.2:5000  192.168.65.1:47489                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:35552                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:43099                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:25547                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:25643                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:48408                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:48030                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:22714                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:24955                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:32321                                \nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:34703                                \nESTAB     0      0         172.20.0.2:22    192.168.65.1:33201 users:((\"sshd\",pid=29124,fd=4))\nTIME-WAIT 0      0         172.20.0.2:22    192.168.65.1:56714                                \n",
+          "timestamp": "2026-08-12T07:24:49.550Z"
+        }
+      ],
+      "resolvedAt": "2026-08-12T07:24:49.551Z",
+      "rcaReport": {
+        "summary": "Incoming traffic overflowed server worker capacity.",
+        "rootCause": "Nginx worker connection starvation and Postgres DB connection pool saturation.",
+        "impact": "New clients received 502 Bad Gateway responses; database rejected connection requests.",
+        "technicalAnalysis": "System metrics show moderate CPU load, but logs reveal \"4096 worker_connections are not enough\" and \"FATAL: connection pool limit exceeded\".",
+        "remediationSteps": [
+          "Increase connection limits in `/etc/nginx/nginx.conf` (`worker_connections 8192;`).",
+          "Configure connection pooling backend (e.g. pgBouncer) for postgres database.",
+          "Check system socket limits: `sysctl -w net.core.somaxconn=1024`.",
+          "Gracefully reload services: `nginx -s reload`."
+        ],
+        "aiModel": "Local SRE Template Engine",
+        "generatedAt": "2026-08-12T07:24:49.551Z"
+      }
+    }
+  ]
+}
