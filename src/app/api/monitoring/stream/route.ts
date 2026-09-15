@@ -1,4 +1,4 @@
-import { db } from '@/lib/db';
+import { db, MetricEntry, LogEntry } from '@/lib/db';
 import { startMonitoringPoller } from '@/lib/monitor/ssh-collector';
 
 export const dynamic = 'force-dynamic';
@@ -23,8 +23,8 @@ export async function GET(request: Request) {
           const incidents = db.getIncidents();
           
           // Organize metrics and logs context per server
-          const metrics: Record<string, any> = {};
-          const logs: Record<string, any> = {};
+          const metrics: Record<string, MetricEntry[]> = {};
+          const logs: Record<string, LogEntry[]> = {};
 
           for (const server of servers) {
             metrics[server.id] = db.getMetrics(server.id, 25);
@@ -55,7 +55,7 @@ export async function GET(request: Request) {
         clearInterval(intervalId);
         try {
           controller.close();
-        } catch (e) {
+        } catch {
           // ignore already closed stream
         }
       });

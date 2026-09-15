@@ -1,5 +1,5 @@
 import { Client } from 'ssh2';
-import { db, Server, MetricEntry, LogEntry, Incident, RcaReport, DiagnosticCommand } from '../db';
+import { db, Server, LogEntry, Incident, RcaReport, DiagnosticCommand } from '../db';
 import { analyzeIncidentWithAI } from '../ai/rca-agent';
 
 let isPollingStarted = false;
@@ -216,28 +216,137 @@ function executeSSHCommand(server: Server, command: string): Promise<string> {
   });
 }
 
+function getMockSystemMetrics() {
+  const now = Date.now();
+  const cycle = Math.sin(now / 4500);
+  const anomaly = mockAnomalyType ?? null;
+
+  if (anomaly === 'cpu') {
+    return {
+      cpu: Math.min(99, 86 + Math.abs(cycle) * 12 + 2),
+      ram: 58 + Math.sin(now / 4700) * 9,
+      disk: 60 + Math.cos(now / 5100) * 8,
+    };
+  }
+
+  if (anomaly === 'ram') {
+    return {
+      cpu: 44 + Math.sin(now / 5200) * 10,
+      ram: Math.min(99, 88 + Math.abs(cycle) * 8 + 3),
+      disk: 62 + Math.cos(now / 4700) * 6,
+    };
+  }
+
+  if (anomaly === 'disk') {
+    return {
+      cpu: 42 + Math.cos(now / 4300) * 9,
+      ram: 60 + Math.sin(now / 4900) * 8,
+      disk: Math.min(99, 92 + Math.abs(cycle) * 7 + 2),
+    };
+  }
+
+  return {
+    cpu: 26 + (Math.sin(now / 5500) + 1) * 16,
+    ram: 38 + (Math.cos(now / 6300) + 1) * 16,
+    disk: 48 + (Math.sin(now / 7000) + 1) * 10,
+  };
+}
+
+function buildMockLogLines(): string[] {
+  const anomaly = mockAnomalyType ?? null;
+
+  if (anomaly === 'cpu') {
+    return [
+      '[ERROR] [cpu-saturation] CPU usage peaked at 96.4% on worker-2',
+      '[WARN] [scheduler] Backlog queue is growing above the expected threshold',
+      '[ERROR] [kubelet] Container runtime hit execution timeout for web-frontend-7',
+    ];
+  }
+
+  if (anomaly === 'ram') {
+    return [
+      '[WARN] [oom-killer] Memory pressure exceeded safe limit for web-node-3',
+      '[ERROR] [node] JavaScript heap out of memory in api-gateway',
+      '[WARN] [allocator] GC pause exceeded 1.4s due to sustained heap growth',
+    ];
+  }
+
+  if (anomaly === 'disk') {
+    return [
+      '[ERROR] [filesystem] /var/lib/app is 98% full; write failures imminent',
+      '[WARN] [storage] I/O latency increased by 420ms during compaction',
+      '[ERROR] [daemon] Failed to rotate log file due to no space left on device',
+    ];
+  }
+
+  if (anomaly === 'db_error') {
+    return [
+      '[ERROR] [postgres] connection pool exhausted; 42 pending client requests',
+      '[WARN] [db-proxy] retry storm detected against primary replica',
+      '[ERROR] [postgres] remaining connection slots reserved for non-replication superusers',
+    ];
+  }
+
+  if (anomaly === 'auth_error') {
+    return [
+      '[ERROR] [auth] invalid token signature for session token x9j-bm8',
+      '[WARN] [gateway] suspicious authentication burst from 192.168.1.104',
+      '[ERROR] [auth] unauthorized access attempt blocked by edge firewall',
+    ];
+  }
+
+  if (anomaly === 'app_crash') {
+    return [
+      '[ERROR] [main] NullPointerException in UserService.getUser()',
+      '[ERROR] [runtime] application crashed during bootstrap phase',
+      '[WARN] [recovery] restart policy triggered after service exit event',
+    ];
+  }
+
+  return [
+    '[INFO] [heartbeat] probe completed successfully',
+    '[INFO] [scheduler] health check passed for web-api',
+    '[INFO] [service] traffic pattern within expected threshold',
+  ];
+}
+
 // Poll real server statistics via SSH
 async function pollRealServer(server: Server) {
   const timestamp = new Date().toISOString();
   try {
-    // Gather system stats via lightweight shell commands
-    const rawCpu = await executeSSHCommand(server, "top -b -n 1 | grep 'Cpu(s)' | awk '{print $2 + $4}'");
-    const rawMem = await executeSSHCommand(server, "free | grep Mem | awk '{print $3/$2 * 100.0}'");
-    const rawDisk = await executeSSHCommand(server, "df / | tail -1 | awk '{print $5}' | sed 's/%//'");
+    let cpu = 10.0;
+    let ram = 25.0;
+    let disk = 45.0;
 
-    const cpu = parseFloat(rawCpu.trim()) || 10.0;
-    const ram = parseFloat(rawMem.trim()) || 25.0;
-    const disk = parseFloat(rawDisk.trim()) || 45.0;
+    if (server.isMock) {
+      const mockStats = getMockSystemMetrics();
+      cpu = mockStats.cpu;
+      ram = mockStats.ram;
+      disk = mockStats.disk;
+    } else {
+      // Gather system stats via lightweight shell commands
+      const rawCpu = await executeSSHCommand(server, "top -b -n 1 | grep 'Cpu(s)' | awk '{print $2 + $4}'");
+      const rawMem = await executeSSHCommand(server, "free | grep Mem | awk '{print $3/$2 * 100.0}'");
+      const rawDisk = await executeSSHCommand(server, "df / | tail -1 | awk '{print $5}' | sed 's/%//' ");
+
+      cpu = parseFloat(rawCpu.trim()) || 10.0;
+      ram = parseFloat(rawMem.trim()) || 25.0;
+      disk = parseFloat(rawDisk.trim()) || 45.0;
+    }
 
     // Check last logs
     let rawLogs = '';
-    const syslog = await executeSSHCommand(server, "journalctl -n 5 --no-pager -p 4 --output=short");
-    if (syslog && !syslog.startsWith('Command execution failed') && !syslog.startsWith('SSH connection failed')) {
-      rawLogs += syslog + '\n';
-    }
-    const simulatorLog = await executeSSHCommand(server, "tail -n 10 /var/log/simulator.log 2>/dev/null");
-    if (simulatorLog && !simulatorLog.startsWith('Command execution failed') && !simulatorLog.startsWith('SSH connection failed') && simulatorLog.trim() !== '') {
-      rawLogs += simulatorLog + '\n';
+    if (server.isMock) {
+      rawLogs = buildMockLogLines().join('\n');
+    } else {
+      const syslog = await executeSSHCommand(server, "journalctl -n 5 --no-pager -p 4 --output=short");
+      if (syslog && !syslog.startsWith('Command execution failed') && !syslog.startsWith('SSH connection failed')) {
+        rawLogs += syslog + '\n';
+      }
+      const simulatorLog = await executeSSHCommand(server, "tail -n 10 /var/log/simulator.log 2>/dev/null");
+      if (simulatorLog && !simulatorLog.startsWith('Command execution failed') && !simulatorLog.startsWith('SSH connection failed') && simulatorLog.trim() !== '') {
+        rawLogs += simulatorLog + '\n';
+      }
     }
 
     const injectedLogs: Omit<LogEntry, 'id'>[] = [];
@@ -284,8 +393,9 @@ async function pollRealServer(server: Server) {
     db.updateServer(server.id, { status: 'online', lastChecked: timestamp });
 
     await evaluateIncidentTriggers(server, cpu, ram, disk, injectedLogs);
-  } catch (error: any) {
-    db.updateServer(server.id, { status: 'error', errorMessage: error.message || 'Polling failed', lastChecked: timestamp });
+  } catch (error: unknown) {
+    const message = error instanceof Error ? error.message : 'Polling failed';
+    db.updateServer(server.id, { status: 'error', errorMessage: message, lastChecked: timestamp });
   }
 }
 
@@ -293,23 +403,34 @@ async function pollRealServer(server: Server) {
 function getSimulatedCommandOutput(command: string, server: Server): string {
   const time = new Date().toLocaleTimeString();
   const activeAnomaly = mockAnomalyType ?? null;
+  const mockStats = getMockSystemMetrics();
 
   if (command === 'uptime') {
-    const load = activeAnomaly === 'cpu' ? '6.84, 4.22, 2.15' : '0.12, 0.25, 0.18';
+    const load = activeAnomaly === 'cpu' ? '6.84, 4.22, 2.15' : activeAnomaly === 'ram' ? '1.31, 1.40, 1.82' : activeAnomaly === 'disk' ? '0.92, 1.08, 1.37' : '0.12, 0.25, 0.18';
     return ` ${time} up 12 days,  3:14,  1 user,  load average: ${load}`;
   }
+
   if (command === 'free -h') {
+    const usedGiB = Math.max(1, mockStats.ram * 0.08);
+    const freeGiB = Math.max(0.2, 7.7 - usedGiB);
     if (activeAnomaly === 'ram') {
-      return `               total        used        free      shared  buff/cache   available\nMem:           7.7Gi       7.4Gi       124Mi       122Mi       184Mi        92Mi\nSwap:          2.0Gi       1.8Gi       200Mi`;
+      return `               total        used        free      shared  buff/cache   available\nMem:           7.7Gi       ${usedGiB.toFixed(1)}Gi       ${freeGiB.toFixed(1)}Gi       122Mi       184Mi        92Mi\nSwap:          2.0Gi       1.8Gi       200Mi`;
     }
-    return `               total        used        free      shared  buff/cache   available\nMem:           7.7Gi       3.1Gi       2.8Gi       122Mi       1.8Gi       4.2Gi\nSwap:          2.0Gi          0B       2.0Gi`;
+    return `               total        used        free      shared  buff/cache   available\nMem:           7.7Gi       ${usedGiB.toFixed(1)}Gi       ${freeGiB.toFixed(1)}Gi       122Mi       1.8Gi       4.2Gi\nSwap:          2.0Gi          0B       2.0Gi`;
   }
+
   if (command === 'df -h') {
-    if (activeAnomaly === 'disk') {
-      return `Filesystem      Size  Used Avail Use% Mounted on\n/dev/root        39G   38G  1.2G  98% /\ntmpfs           3.9G     0  3.9G   0% /dev/shm\n/dev/sda15      124M   11M  114M   9% /boot/efi`;
-    }
-    return `Filesystem      Size  Used Avail Use% Mounted on\n/dev/root        39G   24G   15G  62% /\ntmpfs           3.9G     0  3.9G   0% /dev/shm\n/dev/sda15      124M   11M  114M   9% /boot/efi`;
+    const usedPct = Math.max(45, Math.min(99, Math.round(mockStats.disk)));
+    const usedGiB = Math.max(20, Math.round((usedPct / 100) * 39));
+    const freeGiB = Math.max(1, 39 - usedGiB);
+    return `Filesystem      Size  Used Avail Use% Mounted on\n/dev/root        39G   ${usedGiB}G  ${freeGiB}G  ${usedPct}% /\ntmpfs           3.9G     0  3.9G   0% /dev/shm\n/dev/sda15      124M   11M  114M   9% /boot/efi`;
   }
+
+  if (command.startsWith('top')) {
+    const cpuValue = Math.max(8, Math.min(99, Math.round(mockStats.cpu)));
+    return `%Cpu(s): ${cpuValue.toFixed(1)} us, 2.8 sy, 0.0 ni, 72.1 id, 0.0 wa, 0.0 hi, 0.0 si, 0.0 st`;
+  }
+
   if (command.startsWith('ps')) {
     if (activeAnomaly === 'cpu') {
       return `%CPU %MEM   PID CMD\n94.2  1.4  4819 node /var/www/app/server.js -worker\n 1.2  8.4  1248 postgres: writer process\n 0.8  0.4  1922 nginx: worker process\n 0.0  0.1     1 /sbin/init`;
@@ -319,6 +440,7 @@ function getSimulatedCommandOutput(command: string, server: Server): string {
     }
     return `%CPU %MEM   PID CMD\n 1.4  4.2  4819 node /var/www/app/server.js\n 0.5  4.1  1248 postgres: writer process\n 0.1  0.5  1922 nginx: worker process`;
   }
+
   if (command.startsWith('dmesg')) {
     if (activeAnomaly === 'ram') {
       return `[1048201.2184] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/system.slice/web.service,task=node,pid=4819,uid=1000\n[1048201.2291] Out of memory: Killed process 4819 (node) total-vm:4910242kB, anon-rss:3214812kB, file-rss:0kB, shmem-rss:0kB, UID=1000 pgtables:8204kB oom_score_adj=0`;
@@ -328,11 +450,13 @@ function getSimulatedCommandOutput(command: string, server: Server): string {
     }
     return `[    0.0000] Booting Linux... \n[    2.1284] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null).\n[    4.9124] systemd[1]: Started Journal Service.`;
   }
+
   if (command.startsWith('ss')) {
     if (activeAnomaly === 'log_error') {
       return `Netid State  Recv-Q Send-Q  Local Address:Port   Peer Address:Port\ntcp   ESTAB  0      0       127.0.0.1:5432       127.0.0.1:48210 (postgres: connection limit active)\ntcp   ESTAB  4096   0       10.0.1.45:80         192.168.1.12:51280 (nginx worker queue full)\ntcp   ESTAB  4096   0       10.0.1.45:80         192.168.1.14:51282 (nginx worker queue full)`;
     }
     return `Netid State  Recv-Q Send-Q  Local Address:Port   Peer Address:Port\ntcp   LISTEN 0      4096         *:80                  *:*\ntcp   LISTEN 0      1024         *:22                  *:*\ntcp   LISTEN 0      512    127.0.0.1:5432              *:*`;
   }
+
   return `Command executed on ${server.name}`;
 }

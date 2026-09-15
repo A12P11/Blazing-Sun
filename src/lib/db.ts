@@ -78,18 +78,6 @@ const DB_FILE_PATH = path.join(process.cwd(), 'db.json');
 const defaultDbState: DatabaseSchema = {
   servers: [
     {
-      id: 'mock-web-prod-1',
-      name: 'Mock Web Server (Production)',
-      host: '10.0.1.45',
-      port: 22,
-      username: 'ubuntu',
-      authType: 'password',
-      password: 'password',
-      isMock: true,
-      status: 'online',
-      lastChecked: new Date().toISOString(),
-    },
-    {
       id: 'mock-db-primary',
       name: 'Mock DB Server (Primary)',
       host: '10.0.2.12',
@@ -107,6 +95,28 @@ const defaultDbState: DatabaseSchema = {
   incidents: []
 };
 
+function ensureMockDemoServers(database: DatabaseSchema): DatabaseSchema {
+  const deprecatedServerId = 'mock-web-prod-1';
+  const withoutDeprecatedServer = {
+    ...database,
+    servers: database.servers.filter((server) => server.id !== deprecatedServerId),
+    metrics: database.metrics.filter((metric) => metric.serverId !== deprecatedServerId),
+    logs: database.logs.filter((log) => log.serverId !== deprecatedServerId),
+    incidents: database.incidents.filter((incident) => incident.serverId !== deprecatedServerId)
+  };
+  const existingIds = new Set(database.servers.map((server) => server.id));
+  const missingMockServers = defaultDbState.servers.filter((server) => !existingIds.has(server.id));
+
+  if (missingMockServers.length === 0 && withoutDeprecatedServer.servers.length === database.servers.length) {
+    return database;
+  }
+
+  return {
+    ...withoutDeprecatedServer,
+    servers: [...withoutDeprecatedServer.servers, ...missingMockServers]
+  };
+}
+
 // Initialize database file if it doesn't exist
 function initDb() {
   if (!fs.existsSync(DB_FILE_PATH)) {
@@ -118,8 +128,15 @@ function initDb() {
 export function readDb(): DatabaseSchema {
   initDb();
   try {
-    const data = fs.readFileSync(DB_FILE_PATH, 'utf-8');
-    return JSON.parse(data) as DatabaseSchema;
+    const raw = fs.readFileSync(DB_FILE_PATH, 'utf-8');
+    const parsed = JSON.parse(raw) as DatabaseSchema;
+    const normalized = ensureMockDemoServers(parsed);
+
+    if (normalized !== parsed) {
+      writeDb(normalized);
+    }
+
+    return normalized;
   } catch (error) {
     console.error('Error reading JSON database, resetting to default state:', error);
     return defaultDbState;

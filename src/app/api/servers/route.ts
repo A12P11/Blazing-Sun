@@ -8,8 +8,9 @@ export async function GET() {
     startMonitoringPoller();
     const servers = db.getServers();
     return NextResponse.json(servers);
-  } catch (error: any) {
-    return NextResponse.json({ error: error.message }, { status: 500 });
+  } catch (error: unknown) {
+    const message = error instanceof Error ? error.message : 'Unable to load servers';
+    return NextResponse.json({ error: message }, { status: 500 });
   }
 }
 
@@ -35,7 +36,8 @@ export async function POST(request: Request) {
     });
 
     return NextResponse.json(newServer, { status: 210 });
-  } catch (error: any) {
-    return NextResponse.json({ error: error.message }, { status: 500 });
+  } catch (error: unknown) {
+    const message = error instanceof Error ? error.message : 'Unable to create server';
+    return NextResponse.json({ error: message }, { status: 500 });
   }
 }

@@ -23,9 +23,7 @@ import {
   X, 
   Server as ServerIcon, 
   ShieldAlert,
-  CornerDownRight,
-  Sparkles,
-  Link2
+  Sparkles
 } from 'lucide-react';
 
 export default function Dashboard() {
@@ -34,7 +32,7 @@ export default function Dashboard() {
   const [metrics, setMetrics] = useState<Record<string, MetricEntry[]>>({});
   const [logs, setLogs] = useState<Record<string, LogEntry[]>>({});
   
-  const [selectedServerId, setSelectedServerId] = useState<string>('mock-web-prod-1');
+  const [selectedServerId, setSelectedServerId] = useState<string>('mock-db-primary');
   const [selectedIncident, setSelectedIncident] = useState<Incident | null>(null);
   const [serverToDelete, setServerToDelete] = useState<{id: string, name: string} | null>(null);
   
@@ -47,7 +45,7 @@ export default function Dashboard() {
     authType: 'password' as 'password' | 'key',
     password: 'password',
     privateKey: '',
-    isMock: false
+    isMock: true
   });
 
   const [simulatingType, setSimulatingType] = useState<string | null>(null);
@@ -57,6 +55,20 @@ export default function Dashboard() {
   // SSE Telemetry Connection
   useEffect(() => {
     let eventSource: EventSource;
+
+    const bootSimulator = async () => {
+      try {
+        await fetch('/api/incidents', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ action: 'clear_anomaly' })
+        });
+      } catch {
+        // ignore boot-time startup races; the simulator will be started on demand
+      }
+    };
+
+    bootSimulator();
 
     function connectSSE() {
       eventSource = new EventSource('/api/monitoring/stream');
@@ -96,6 +108,18 @@ export default function Dashboard() {
     };
   }, []);
 
+  useEffect(() => {
+    if (!servers.length) return;
+
+    const exists = servers.some((server) => server.id === selectedServerId);
+    if (!exists) {
+      const preferred = servers.find((server) => server.isMock) ?? servers[0];
+      if (preferred) {
+        queueMicrotask(() => setSelectedServerId(preferred.id));
+      }
+    }
+  }, [servers, selectedServerId]);
+
   // Auto scroll console to bottom on new logs
   useEffect(() => {
     if (consoleEndRef.current) {
@@ -128,7 +152,7 @@ export default function Dashboard() {
         const err = await res.json();
         alert(`Failed to add server: ${err.error}`);
       }
-    } catch (error) {
+    } catch {
       alert('Error connecting to servers API');
     }
   };
@@ -208,9 +232,14 @@ export default function Dashboard() {
   const serverMetrics = selectedServerId ? metrics[selectedServerId] || [] : [];
   const serverLogs = selectedServerId ? logs[selectedServerId] || [] : [];
 
-  const currentCpu = serverMetrics.length > 0 ? serverMetrics[serverMetrics.length - 1].cpu : 0;
-  const currentRam = serverMetrics.length > 0 ? serverMetrics[serverMetrics.length - 1].ram : 0;
-  const currentDisk = serverMetrics.length > 0 ? serverMetrics[serverMetrics.length - 1].disk : 0;
+  const anomalyFallback = simulatingType === 'cpu' ? 92 : simulatingType === 'ram' ? 94 : simulatingType === 'disk' ? 96 : null;
+  const lastCpuMetric = serverMetrics.length > 0 ? serverMetrics[serverMetrics.length - 1].cpu : null;
+  const lastRamMetric = serverMetrics.length > 0 ? serverMetrics[serverMetrics.length - 1].ram : null;
+  const lastDiskMetric = serverMetrics.length > 0 ? serverMetrics[serverMetrics.length - 1].disk : null;
+  const currentCpu = lastCpuMetric ?? anomalyFallback ?? 0;
+  const currentRam = lastRamMetric ?? (simulatingType === 'ram' ? anomalyFallback ?? 0 : 0);
+  const currentDisk = lastDiskMetric ?? (simulatingType === 'disk' ? anomalyFallback ?? 0 : 0);
+  const formatPercent = (value: number) => Number.isFinite(value) ? Number(value).toFixed(2) : '0.00';
 
   // Determine indicator state
   const getStatusColor = (val: number, warn = 80, crit = 90) => {
@@ -383,7 +412,7 @@ export default function Dashboard() {
                       <span style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                         <Cpu size={16} color="var(--accent-cyan)" /> CPU Load
                       </span>
-                      <span className="metric-value" style={{ color: getStatusColor(currentCpu) }}>{currentCpu}%</span>
+                      <span className="metric-value" style={{ color: getStatusColor(currentCpu) }}>{formatPercent(currentCpu)}%</span>
                     </div>
                     <div className="metric-bar-container">
                       <div 
@@ -401,7 +430,7 @@ export default function Dashboard() {
                       <span style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                         <Database size={16} color="var(--accent-purple)" /> RAM Usage
                       </span>
-                      <span className="metric-value" style={{ color: getStatusColor(currentRam) }}>{currentRam}%</span>
+                      <span className="metric-value" style={{ color: getStatusColor(currentRam) }}>{formatPercent(currentRam)}%</span>
                     </div>
                     <div className="metric-bar-container">
                       <div 
@@ -419,7 +448,7 @@ export default function Dashboard() {
                       <span style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                         <HardDrive size={16} color="var(--accent-magenta)" /> Disk storage
                       </span>
-                      <span className="metric-value" style={{ color: getStatusColor(currentDisk, 85, 95) }}>{currentDisk}%</span>
+                      <span className="metric-value" style={{ color: getStatusColor(currentDisk, 85, 95) }}>{formatPercent(currentDisk)}%</span>
                     </div>
                     <div className="metric-bar-container">
                       <div 
@@ -448,11 +477,6 @@ export default function Dashboard() {
 
             <div className="console-container">
               <div className="console-header">
-                <div className="console-dots">
-                  <span className="console-dot red"></span>
-                  <span className="console-dot yellow"></span>
-                  <span className="console-dot green"></span>
-                </div>
                 <div className="console-title">SYSLOG CONSOLE • {selectedServer ? selectedServer.name : 'NO SERVER'}</div>
                 <div style={{ width: '30px' }}></div>
               </div>

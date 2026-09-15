@@ -9,7 +9,8 @@ export async function DELETE(
     const { id } = await params;
     db.deleteServer(id);
     return NextResponse.json({ success: true });
-  } catch (error: any) {
-    return NextResponse.json({ error: error.message }, { status: 500 });
+  } catch (error: unknown) {
+    const message = error instanceof Error ? error.message : 'Unable to delete server';
+    return NextResponse.json({ error: message }, { status: 500 });
   }
 }

@@ -384,10 +384,6 @@ h2.section-title {
   border-radius: 50%;
 }
 
-.console-dot.red { background: #ef4444; }
-.console-dot.yellow { background: #f59e0b; }
-.console-dot.green { background: #10b981; }
-
 .console-title {
   color: var(--text-secondary);
   font-size: 0.75rem;

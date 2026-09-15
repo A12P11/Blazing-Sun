@@ -1,13 +1,15 @@
 import { NextResponse } from 'next/server';
 import { db, readDb, writeDb } from '@/lib/db';
 import { setMockAnomalyType } from '@/lib/monitor/ssh-collector';
+import { ensureSimulatorRunning } from '@/lib/simulator';
 
 export async function GET() {
   try {
     const incidents = db.getIncidents();
     return NextResponse.json(incidents);
-  } catch (error: any) {
-    return NextResponse.json({ error: error.message }, { status: 500 });
+  } catch (error: unknown) {
+    const message = error instanceof Error ? error.message : 'Unable to load incidents';
+    return NextResponse.json({ error: message }, { status: 500 });
   }
 }
 
@@ -23,7 +25,12 @@ export async function POST(request: Request) {
 
       setMockAnomalyType(type);
 
-      // Hit the Docker python simulator
+      const simulatorReady = await ensureSimulatorRunning();
+      if (!simulatorReady) {
+        console.log('Failed to start or reach the Python simulator API.');
+        return NextResponse.json({ error: 'Python anomaly simulator is unavailable' }, { status: 503 });
+      }
+
       try {
         await fetch('http://localhost:5050/trigger', {
           method: 'POST',
@@ -31,7 +38,8 @@ export async function POST(request: Request) {
           body: JSON.stringify({ type })
         });
       } catch (e) {
-        console.log('Failed to reach docker simulator API (may not be running).', e);
+        console.log('Failed to reach Python simulator API.', e);
+        return NextResponse.json({ error: 'Python anomaly simulator is unavailable' }, { status: 503 });
       }
 
       return NextResponse.json({ success: true, message: `Anomaly ${type} triggered` });
@@ -39,13 +47,17 @@ export async function POST(request: Request) {
 
     if (action === 'clear_anomaly') {
       setMockAnomalyType(null);
+      const simulatorReady = await ensureSimulatorRunning();
+      if (!simulatorReady) {
+        return NextResponse.json({ success: true, message: 'Anomaly cleared locally; simulator unavailable' });
+      }
       try {
         await fetch('http://localhost:5050/trigger', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ type: 'clear' })
         });
-      } catch (e) {
+      } catch {
         // ignore
       }
       return NextResponse.json({ success: true, message: 'Anomaly cleared' });
@@ -70,7 +82,8 @@ export async function POST(request: Request) {
     }
 
     return NextResponse.json({ error: 'Invalid action' }, { status: 400 });
-  } catch (error: any) {
-    return NextResponse.json({ error: error.message }, { status: 500 });
+  } catch (error: unknown) {
+    const message = error instanceof Error ? error.message : 'Incident request failed';
+    return NextResponse.json({ error: message }, { status: 500 });
   }
 }
