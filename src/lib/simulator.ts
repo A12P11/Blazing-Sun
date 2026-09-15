@@ -37,6 +37,7 @@ export async function ensureSimulatorRunning(): Promise<boolean> {
     cwd: process.cwd(),
     stdio: 'ignore',
     detached: true,
+    windowsHide: true,
   });
 
   child.unref();

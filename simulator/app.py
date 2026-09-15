@@ -102,6 +102,7 @@ def launch_web_app():
         stderr=subprocess.STDOUT,
         start_new_session=True,
         text=True,
+        creationflags=subprocess.CREATE_NO_WINDOW if os.name == 'nt' else 0,
     )
 
     logger.info('Web app launch command sent to background.')
